@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TopDownPuzzle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E4EDEA12-640E-4343-AB38-AD678DCA5FE0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDownPuzzle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TopDownPuzzleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1484C9AC-5C66-437C-ACA7-998D8C4F10F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TopDownPuzzle">
+      <UniqueIdentifier>{30AA6489-62E9-4BE7-9727-95FF6291B4DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TopDownPuzzle\TopDownPuzzle.Build.cs">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TopDownPuzzle\TopDownPuzzle.cpp">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownPuzzle\TopDownPuzzle.h">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownPuzzle\TopDownPuzzleCharacter.cpp">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownPuzzle\TopDownPuzzleCharacter.h">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownPuzzle\TopDownPuzzleGameMode.cpp">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownPuzzle\TopDownPuzzleGameMode.h">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TopDownPuzzle\TopDownPuzzlePlayerController.cpp">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownPuzzle\TopDownPuzzlePlayerController.h">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

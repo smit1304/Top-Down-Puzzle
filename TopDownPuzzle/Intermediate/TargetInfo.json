@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TopDownPuzzle",
+			"Path": "C:\\Unreal Projects\\Top-Down-Puzzle\\TopDownPuzzle\\Source\\TopDownPuzzle.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TopDownPuzzleEditor",
+			"Path": "C:\\Unreal Projects\\Top-Down-Puzzle\\TopDownPuzzle\\Source\\TopDownPuzzleEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
