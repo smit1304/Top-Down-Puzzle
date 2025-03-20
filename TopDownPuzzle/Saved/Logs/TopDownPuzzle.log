@@ -1254,3 +1254,1511 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2025.03.20-19.04.55:661][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.03.20-19.04.55:665][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
 [2025.03.20-19.04.55:677][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.03.20-19.16.25:453][209]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.03.20-19.16.25:463][209]LogContentBrowser: Creating deferred item: NewFolder
+[2025.03.20-19.16.26:744][363]LogContentBrowser: Attempting asset rename: NewFolder -> fevfv
+[2025.03.20-19.16.26:745][363]LogContentBrowser: End creating deferred item NewFolder
+[2025.03.20-19.25.40:113][551]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.25.40:122][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.25.40:122][551]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:25:40 am)
+[2025.03.20-19.25.40:122][551]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.25.40:139][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016942s)
+[2025.03.20-19.25.40:141][551]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.25.40:141][551]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2025.03.20-19.25.40:141][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019095s)
+[2025.03.20-19.25.40:151][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.03.20-19.25.40:153][551]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.25.40:153][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.25.40:153][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.25.40:153][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.25.40:153][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.25.40:153][551]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.25.40:159][551]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.25.40:159][551]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.25.40:181][551]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.25.40:181][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.25.40:182][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.25.40:182][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.25.40:182][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.25.40:182][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.25.40:182][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.25.40:183][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.25.40:183][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.25.40:183][551]LogInit: FAudioDevice initialized.
+[2025.03.20-19.25.40:183][551]LogAudio: Display: Audio Device (ID: 3) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.25.40:198][551]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.25.40:200][551]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.25.40
+[2025.03.20-19.25.40:200][551]LogWorld: Bringing up level for play took: 0.001526
+[2025.03.20-19.25.40:200][551]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2025.03.20-19.25.40:205][551]PIE: Server logged in
+[2025.03.20-19.25.40:205][551]PIE: Play in editor total start time 0.088 seconds.
+[2025.03.20-19.26.02:460][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.26.02:460][774]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.26.02:460][774]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.26.02:461][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.26.02:468][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.26.02:470][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.26.02:476][774]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.26.02:476][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.26.02:477][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.26.02:480][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.26.02:482][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.03.20-19.26.02:522][779]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.03.20-19.29.23:704][198]LogSlate: Took 0.001325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.20-19.29.27:184][364]AssetReimport: New page: Outstanding source content changes 11:29:27 am
+[2025.03.20-19.29.27:190][364]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx)
+[2025.03.20-19.29.27:222][364]LogFbx: Loading FBX Scene from C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx
+[2025.03.20-19.29.27:263][364]LogFbx: FBX Scene Loaded Succesfully
+[2025.03.20-19.29.46:923][364]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.009) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cylinder) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.010) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.011) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.007) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.012) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.013) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cube.014) - Body
+[2025.03.20-19.29.46:979][364]LogFbx: Valid bind pose for Pose (Cylinder.001) - Body
+[2025.03.20-19.29.47:032][364]LogFbx: Triangulating skeletal mesh Body
+[2025.03.20-19.29.47:218][364]LogFbx: Triangulating skeletal mesh Paper
+[2025.03.20-19.29.47:223][364]LogFbx: Triangulating skeletal mesh Arms
+[2025.03.20-19.29.47:283][364]LogFbx: Triangulating skeletal mesh Glasses
+[2025.03.20-19.29.47:342][364]LogFbx: Triangulating skeletal mesh GlassesStroke.001
+[2025.03.20-19.29.47:393][364]LogFbx: Triangulating skeletal mesh Arms.001
+[2025.03.20-19.29.47:452][364]LogFbx: Triangulating skeletal mesh GlassesStroke
+[2025.03.20-19.29.47:481][364]LogFbx: Triangulating skeletal mesh BodyStroke
+[2025.03.20-19.29.47:648][364]LogFbx: Triangulating skeletal mesh PaperStroke
+[2025.03.20-19.29.48:178][364]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.29.48:178][364]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.29.48:178][364]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.29.48:182][364]LogSkeletalMesh: Building Skeletal Mesh AmongUs...
+[2025.03.20-19.29.48:632][364]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.29.48:632][364]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.29.48:632][364]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.29.48:677][364]LogSkeletalMesh: Built Skeletal Mesh [0.49s] /Game/source/AmongUs.AmongUs
+[2025.03.20-19.29.48:689][364]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.03.20-19.29.48:689][364]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.29.48:689][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.29.48:696][364]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.29.48:697][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.29.48:724][364]FBXImport: FBX File Loading: Found name clash, node 'Body' was renamed to 'Body1' 
+[2025.03.20-19.29.48:724][364]FBXImport: FBX File Loading: Found name clash, node 'Paper' was renamed to 'Paper2' 
+[2025.03.20-19.29.48:724][364]FBXImport: FBX File Loading: Found name clash, node 'glasses' was renamed to 'glasses3' 
+[2025.03.20-19.29.48:724][364]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'AmongUs' was renamed 'AmongUs_ncl1_1' 
+[2025.03.20-19.29.48:818][364]LogSlate: Took 0.007740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.03.20-19.29.48:827][365]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/textures/AmongUs.png)
+[2025.03.20-19.29.48:993][366]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.29.48:998][366]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.29.49:002][366]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2025.03.20-19.29.49:002][366]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2025.03.20-19.29.49:002][366]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.29.49:002][366]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.29.49:030][366]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2025.03.20-19.29.49:030][366]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2025.03.20-19.29.49:030][366]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.29.49:046][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.29.49:152][366]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUsFE2083424D0E7B0A2D881DB9B8515754.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.29.49:163][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/textures/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/textures/AmongUs.uasset" SILENT=true
+[2025.03.20-19.29.49:192][366]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUsC31D6DDB42EF85EFE8B454A032FF5152.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/textures/AmongUs.uasset'
+[2025.03.20-19.29.49:220][367]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.20-19.29.49:220][367]LogContentValidation: Display: Validating Texture2D /Game/textures/AmongUs.AmongUs
+[2025.03.20-19.29.49:220][367]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.29.51:273][587]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.20-19.29.51:273][587]LogShaderCompilers: Display: Total job queries 137, among them cache hits 0 (0.00%)
+[2025.03.20-19.29.51:273][587]LogShaderCompilers: Display: Tracking 36 distinct input hashes that result in 26 distinct outputs (72.22%)
+[2025.03.20-19.29.51:273][587]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2025.03.20-19.29.51:273][587]LogShaderCompilers: Display: ================================================
+[2025.03.20-19.29.52:208][687]AssetReimport: Importing new asset /Game/source/AmongUs.
+[2025.03.20-19.29.52:208][687]AssetReimport: Importing new asset /Game/textures/AmongUs.
+[2025.03.20-19.29.54:987][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2025.03.20-19.29.54:990][  6]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.018
+[2025.03.20-19.29.54:992][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/source/AmongUs_Skeleton] ([1] browsable assets)...
+[2025.03.20-19.29.54:992][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/source/AmongUs_Skeleton]
+[2025.03.20-19.29.54:994][  6]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs_Skeleton_Auto12BDE18744652B0425F17738B2767CCBC.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/source/AmongUs_Skeleton_Auto1.uasset'
+[2025.03.20-19.29.54:996][  6]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/source/AmongUs_PhysicsAsset] ([1] browsable assets)...
+[2025.03.20-19.29.55:026][  6]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/source/AmongUs_PhysicsAsset.AmongUs_PhysicsAsset]
+[2025.03.20-19.29.55:026][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/source/AmongUs_PhysicsAsset]
+[2025.03.20-19.29.55:034][  6]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs_PhysicsAsset_Auto19047E94B4273C3B294DD9F804EA5EE06.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/source/AmongUs_PhysicsAsset_Auto1.uasset'
+[2025.03.20-19.29.55:035][  6]LogFileHelpers: Auto-saving content packages took 0.044
+[2025.03.20-19.29.56:231][149]LogSlate: Window 'Message Log' being destroyed
+[2025.03.20-19.29.56:243][149]LogSlate: Window 'Message Log' being destroyed
+[2025.03.20-19.30.09:821][243]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.09:826][243]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2025.03.20-19.30.09:826][243]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2025.03.20-19.30.09:826][243]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.09:844][243]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.09:844][243]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2025.03.20-19.30.09:844][243]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2025.03.20-19.30.09:844][243]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.09:854][243]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.09:882][243]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.09:897][243]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.09:923][243]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.10:641][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2025.03.20-19.30.10:642][282]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.10:844][293]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2025.03.20-19.30.10:844][293]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.11:928][341]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2025.03.20-19.30.11:928][341]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.12:454][367]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 68
+[2025.03.20-19.30.12:454][367]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.12:704][380]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 58
+[2025.03.20-19.30.12:704][380]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.16:085][655]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2025.03.20-19.30.16:085][655]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.16:714][718]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2025.03.20-19.30.16:714][718]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.20:478][ 33]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2025.03.20-19.30.20:478][ 33]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.20:793][ 61]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.03.20-19.30.21:229][ 97]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2025.03.20-19.30.21:229][ 97]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.21:297][102]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_1. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.03.20-19.30.22:719][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2025.03.20-19.30.22:719][207]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.22:769][210]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2025.03.20-19.30.22:769][210]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.30.23:470][268]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2025.03.20-19.30.23:471][268]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.23:805][297]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2025.03.20-19.30.23:806][297]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.25:587][446]Cmd: DELETE
+[2025.03.20-19.30.25:587][446]Cmd: ACTOR DELETE
+[2025.03.20-19.30.25:602][446]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.03.20-19.30.25:610][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.03.20-19.30.25:612][446]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.03.20-19.30.26:414][530]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2025.03.20-19.30.26:414][530]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.26:497][535]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2025.03.20-19.30.26:497][535]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.26:615][542]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2025.03.20-19.30.26:615][542]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.26:727][549]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2025.03.20-19.30.26:727][549]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.30.27:123][572]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2025.03.20-19.30.27:123][572]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.19:371][649]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/source/AmongUs1.AmongUs1
+[2025.03.20-19.31.19:374][649]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: D8BDBF1EA0109EB68A99F76C9B8AC423431E6795), compiling. 
+[2025.03.20-19.31.19:418][649]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2025.03.20-19.31.19:504][649]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2025.03.20-19.31.19:703][649]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: FBF2975C581D22339A93D63AC43B14F622894720), compiling. 
+[2025.03.20-19.31.19:706][649]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 000BC2B885ED122F95FE043296082D088B83DDA7), compiling. 
+[2025.03.20-19.31.19:730][649]MaterialEditorStats: Texture samplers: 0/16
+[2025.03.20-19.31.19:851][649]LogSlate: Took 0.114714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.03.20-19.31.19:979][650]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.19:979][650]MaterialEditorStats: Base pass shader: 119 instructions
+[2025.03.20-19.31.19:979][650]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2025.03.20-19.31.19:979][650]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2025.03.20-19.31.19:979][650]MaterialEditorStats: Base pass vertex shader: 96 instructions
+[2025.03.20-19.31.19:980][650]MaterialEditorStats: Texture samplers: 2/16
+[2025.03.20-19.31.19:994][650]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2025.03.20-19.31.19:994][650]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2025.03.20-19.31.19:994][650]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.19:994][650]LogSlate: Took 0.009542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.03.20-19.31.39:076][ 98]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9EDEE119090112EE677F09345B8CC518E88EE2A4), compiling. 
+[2025.03.20-19.31.39:078][ 98]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D281A857CE640D187BEF7FECECA4065638D90048), compiling. 
+[2025.03.20-19.31.39:080][ 98]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C195BDC28EE342DFEF40B0CD807533F1F3BCFABF), compiling. 
+[2025.03.20-19.31.39:082][ 98]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 72F80A7BD5868FEA2AE4348E779BDA92D65A7ADD), compiling. 
+[2025.03.20-19.31.39:087][ 98]MaterialEditorStats: Texture samplers: 0/16
+[2025.03.20-19.31.39:130][ 99]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.39:130][ 99]MaterialEditorStats: Base pass shader: 119 instructions
+[2025.03.20-19.31.39:130][ 99]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2025.03.20-19.31.39:130][ 99]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2025.03.20-19.31.39:130][ 99]MaterialEditorStats: Base pass vertex shader: 96 instructions
+[2025.03.20-19.31.39:130][ 99]MaterialEditorStats: Texture samplers: 2/16
+[2025.03.20-19.31.39:154][100]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2025.03.20-19.31.39:154][100]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2025.03.20-19.31.39:154][100]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.45:368][570]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: 98AC8EC2843DE13E5258B4F0DD7504A19FFC78E1), compiling. 
+[2025.03.20-19.31.45:371][570]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CE720DC1301D68B3A2F2D0C069C513CEDF44366C), compiling. 
+[2025.03.20-19.31.45:376][570]MaterialEditorStats: Texture samplers: 0/16
+[2025.03.20-19.31.45:376][570]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.45:376][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.45:387][571]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.45:396][572]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2025.03.20-19.31.45:396][572]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2025.03.20-19.31.45:396][572]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.45:408][572]LogShaderCompilers: Display: Submitted 18 shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.45:408][572]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2025.03.20-19.31.45:408][572]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2025.03.20-19.31.45:408][572]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.46:212][618]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2025.03.20-19.31.46:212][618]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.46:677][641]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2025.03.20-19.31.46:677][641]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.46:702][642]MaterialEditorStats: Texture samplers: 3/16
+[2025.03.20-19.31.46:702][642]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.46:702][642]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.48:486][738]LogMaterialEditor: Applying material AmongUs1
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2025.03.20-19.31.53:123][738]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.53:135][738]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: D61C93DA57B6C7856481DEDDFEAF37955AD417D0), compiling. 
+[2025.03.20-19.31.53:167][738]LogMaterial: Display: Missing cached shadermap for AmongUs1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4268C08EFE1D6AF65710B691D75ACE17D273C0A1), compiling. 
+[2025.03.20-19.31.53:229][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.03.20-19.31.53:235][738]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.53:451][738]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2025.03.20-19.31.53:451][738]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2025.03.20-19.31.53:466][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2025.03.20-19.31.53:487][738]MaterialEditorStats: Texture samplers: 1/16
+[2025.03.20-19.31.53:488][738]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.53:488][738]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.53:529][740]LogShaderCompilers: Display: Submitted 11 shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.53:533][740]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2025.03.20-19.31.53:533][740]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2025.03.20-19.31.53:533][740]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2025.03.20-19.31.53:533][740]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2025.03.20-19.31.53:533][740]LogShaderCompilers: Display: Started 11 'Local' shader compile jobs with 'Normal' priority
+[2025.03.20-19.31.53:538][740]MaterialEditorStats: Texture samplers: 3/16
+[2025.03.20-19.31.53:538][740]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.53:538][740]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.55:297][825]MaterialEditorStats: Texture samplers: 4/16
+[2025.03.20-19.31.55:297][825]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.55:297][825]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Base pass shader: 120 instructions
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Texture samplers: 4/16
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2025.03.20-19.31.55:720][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.03.20-19.31.57:427][968]LogMaterialEditor: Saving and Compiling material AmongUs1
+[2025.03.20-19.31.57:464][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs1" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs1.uasset" SILENT=true
+[2025.03.20-19.31.57:472][968]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs1ABBE2C394EF9DD52C413CA859B3FD975.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs1.uasset'
+[2025.03.20-19.31.57:490][968]AssetCheck: New page: Asset Save: AmongUs1
+[2025.03.20-19.31.57:490][968]LogContentValidation: Display: Validating Material /Game/source/AmongUs1.AmongUs1
+[2025.03.20-19.32.06:518][901]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.32.06:526][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.32.06:526][901]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:32:06 am)
+[2025.03.20-19.32.06:526][901]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.32.06:540][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013810s)
+[2025.03.20-19.32.06:541][901]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.32.06:542][901]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2025.03.20-19.32.06:542][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015237s)
+[2025.03.20-19.32.06:549][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.03.20-19.32.06:550][901]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.32.06:550][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.32.06:550][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.32.06:551][901]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.32.06:551][901]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.32.06:551][901]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.32.06:551][901]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.32.06:556][901]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.32.06:556][901]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.32.06:575][901]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.32.06:575][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.32.06:575][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.32.06:575][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.32.06:576][901]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.32.06:576][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.32.06:576][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.32.06:577][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.32.06:577][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.32.06:577][901]LogInit: FAudioDevice initialized.
+[2025.03.20-19.32.06:577][901]LogAudio: Display: Audio Device (ID: 4) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.32.06:587][901]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.32.06:590][901]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.32.06
+[2025.03.20-19.32.06:590][901]LogWorld: Bringing up level for play took: 0.001541
+[2025.03.20-19.32.06:590][901]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2025.03.20-19.32.06:596][901]PIE: Server logged in
+[2025.03.20-19.32.06:597][901]PIE: Play in editor total start time 0.076 seconds.
+[2025.03.20-19.32.10:750][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.32.10:751][390]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.32.10:751][390]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.32.10:752][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.32.10:772][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.32.10:810][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.32.10:816][390]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.32.10:817][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.32.10:818][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.32.10:821][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.32.10:822][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.03.20-19.32.10:849][391]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.03.20-19.32.52:412][308]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.32.52:421][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.32.52:421][308]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:32:52 am)
+[2025.03.20-19.32.52:421][308]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.32.52:435][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014016s)
+[2025.03.20-19.32.52:436][308]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.32.52:436][308]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2025.03.20-19.32.52:436][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015351s)
+[2025.03.20-19.32.52:443][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.03.20-19.32.52:444][308]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.32.52:444][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.32.52:444][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.32.52:445][308]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.32.52:445][308]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.32.52:445][308]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.32.52:445][308]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.32.52:448][308]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.32.52:448][308]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.32.52:465][308]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.32.52:465][308]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.32.52:465][308]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.32.52:465][308]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.32.52:466][308]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.32.52:466][308]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.32.52:466][308]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.32.52:467][308]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.32.52:467][308]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.32.52:467][308]LogInit: FAudioDevice initialized.
+[2025.03.20-19.32.52:467][308]LogAudio: Display: Audio Device (ID: 5) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.32.52:478][308]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.32.52:479][308]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.32.52
+[2025.03.20-19.32.52:479][308]LogWorld: Bringing up level for play took: 0.001903
+[2025.03.20-19.32.52:480][308]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2025.03.20-19.32.52:484][308]PIE: Server logged in
+[2025.03.20-19.32.52:485][308]PIE: Play in editor total start time 0.069 seconds.
+[2025.03.20-19.33.16:203][929]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton AmongUs_Skeleton, removing AnimBP from actor.
+[2025.03.20-19.33.57:776][120]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.03.20-19.34.06:778][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.34.06:778][ 23]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.34.06:778][ 23]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.34.06:779][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.34.06:791][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.34.06:808][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.34.06:813][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.34.06:813][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.34.06:814][ 23]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.34.06:821][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.03.20-19.34.06:859][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.03.20-19.34.42:369][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2025.03.20-19.35.17:629][607]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2025.03.20-19.35.17:824][607]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 126 classes and 0 folders.
+[2025.03.20-19.36.16:795][778]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.03.20-19.36.16:826][778]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.03.20-19.36.37:804][260]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton AmongUs_Skeleton, removing AnimBP from actor.
+[2025.03.20-19.36.37:805][260]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton AmongUs_Skeleton, removing AnimBP from actor.
+[2025.03.20-19.36.37:805][260]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton AmongUs_Skeleton, removing AnimBP from actor.
+[2025.03.20-19.36.58:595][764]LogSlate: Window 'TopDownCharacter' being destroyed
+[2025.03.20-19.36.58:605][764]LogSlate: Window 'TopDownCharacter' being destroyed
+[2025.03.20-19.36.58:635][764]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.36.58:635][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.36.58:659][764]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.36.58:659][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.37.01:909][136]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (AmongUs)
+[2025.03.20-19.37.04:017][335]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.37.04:035][335]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2025.03.20-19.37.04:046][335]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.37.04:053][335]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2025.03.20-19.37.04:710][336]LogRenderer: Reallocating scene render targets to support 1112x504 Format 10 NumSamples 1 (Frame:1).
+[2025.03.20-19.37.21:443][458]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.37.40:780][678]Cmd: TRANSACTION UNDO
+[2025.03.20-19.37.40:780][678]LogEditorTransaction: Undo Edit Import Uniform Scale
+[2025.03.20-19.37.40:902][678]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.37.43:826][871]Cmd: TRANSACTION UNDO
+[2025.03.20-19.37.43:826][871]LogEditorTransaction: Undo Edit Import Uniform Scale
+[2025.03.20-19.37.43:943][871]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.37.49:844][274]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.38.00:729][177]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.38.05:302][457]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.38.11:665][975]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.38.49:167][170]LogUObjectGlobals: Warning: Failed to find object 'Class None.ControlRigBlueprint'
+[2025.03.20-19.39.05:339][499]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/source/AmongUs_PhysicsAsset.AmongUs_PhysicsAsset
+[2025.03.20-19.39.05:361][499]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2025.03.20-19.39.05:383][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.39.50:519][435]Cmd: TRANSACTION UNDO
+[2025.03.20-19.39.50:519][435]LogEditorTransaction: Undo Edit Import Uniform Scale
+[2025.03.20-19.39.50:760][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.39.50:761][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.39.52:132][506]Cmd: TRANSACTION UNDO
+[2025.03.20-19.39.52:132][506]LogEditorTransaction: Undo Clicking on Actors
+[2025.03.20-19.39.52:285][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.39.52:285][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.39.55:908][715]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.39.55:913][715]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.39.55:914][715]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.39.55:914][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.39.56:017][715]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.39.56:017][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.39.59:928][ 89]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (AmongUs)
+[2025.03.20-19.40.01:042][190]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.40.01:047][190]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.40.01:387][191]LogRenderer: Reallocating scene render targets to support 1112x508 Format 10 NumSamples 1 (Frame:1).
+[2025.03.20-19.40.06:273][568]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/source/AmongUs_PhysicsAsset.AmongUs_PhysicsAsset
+[2025.03.20-19.40.06:280][568]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.40.27:215][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs_PhysicsAsset" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs_PhysicsAsset.uasset" SILENT=true
+[2025.03.20-19.40.27:220][963]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs_PhysicsAsset1EE54506495BF6E81B47C1BC6E7CE35A.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs_PhysicsAsset.uasset'
+[2025.03.20-19.40.27:252][963]AssetCheck: New page: Asset Save: AmongUs_PhysicsAsset
+[2025.03.20-19.40.27:253][963]LogContentValidation: Display: Validating PhysicsAsset /Game/source/AmongUs_PhysicsAsset.AmongUs_PhysicsAsset
+[2025.03.20-19.40.51:834][859]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.40.51:847][859]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.40.51:848][859]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.40.51:848][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.40.51:943][859]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.40.51:943][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.41.18:031][343]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2025.03.20-19.41.18:068][343]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownExampleMap_Auto2543738A74D6B3FF8E673FF9404653087.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto2.umap'
+[2025.03.20-19.41.18:070][343]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.208
+[2025.03.20-19.41.18:070][343]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.208
+[2025.03.20-19.41.18:070][343]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/TopDownCPP/Blueprints/TopDownCharacter] ([2] browsable assets)...
+[2025.03.20-19.41.18:087][343]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter_C]
+[2025.03.20-19.41.18:097][343]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2025.03.20-19.41.18:097][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Blueprints/TopDownCharacter]
+[2025.03.20-19.41.18:110][343]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownCharacter_Auto216C7D3584FB964CF92B1199EF843F335.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/TopDownCPP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2025.03.20-19.41.18:111][343]LogFileHelpers: Auto-saving content packages took 0.041
+[2025.03.20-19.41.19:484][466]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.41.19:489][466]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.41.22:938][699]LogRenderer: Reallocating scene render targets to support 1112x660 Format 10 NumSamples 1 (Frame:234).
+[2025.03.20-19.41.52:453][ 56]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/source/AmongUs_Skeleton.AmongUs_Skeleton
+[2025.03.20-19.41.52:458][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.42.49:174][936]LogSlate: Window 'AmongUs_Skeleton' being destroyed
+[2025.03.20-19.42.49:185][936]LogSlate: Window 'AmongUs_Skeleton' being destroyed
+[2025.03.20-19.42.49:185][936]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.42.49:185][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.42.49:281][936]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.42.49:281][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.43.08:606][748]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/source/AmongUs_PhysicsAsset.AmongUs_PhysicsAsset
+[2025.03.20-19.43.08:613][748]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.43.11:810][943]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.43.11:823][943]LogSlate: Window 'AmongUs_PhysicsAsset' being destroyed
+[2025.03.20-19.43.11:824][943]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.43.11:824][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.43.19:639][766]LogWindows: LaunchURL https://docs.unrealengine.com/4.27/en//Engine/Content/Types/SkeletalMeshes/index.html?utm_source=editor&utm_medium=docs&utm_campaign=cb_docs
+[2025.03.20-19.43.35:753][713]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.43.35:758][713]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.45.18:235][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.45.18:316][660]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUsC4D7A0C54856B275A94226B8027F87E3.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.45.18:341][660]AssetCheck: New page: Asset Save: AmongUs
+[2025.03.20-19.45.18:341][660]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.45.24:296][224]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.45.24:303][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.45.24:303][224]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:45:24 am)
+[2025.03.20-19.45.24:303][224]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.45.24:322][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018817s)
+[2025.03.20-19.45.24:323][224]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.45.24:324][224]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2025.03.20-19.45.24:324][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020596s)
+[2025.03.20-19.45.24:415][224]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2025.03.20-19.45.24:428][224]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.45.24:428][224]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.45.24:428][224]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.45.24:429][224]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.45.24:429][224]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.45.24:429][224]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.45.24:429][224]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.45.24:433][224]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.45.24:433][224]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.45.24:449][224]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.45.24:449][224]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.45.24:449][224]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.45.24:449][224]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.45.24:449][224]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.45.24:450][224]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.45.24:450][224]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.45.24:451][224]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.45.24:451][224]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.45.24:451][224]LogInit: FAudioDevice initialized.
+[2025.03.20-19.45.24:451][224]LogAudio: Display: Audio Device (ID: 6) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.45.24:466][224]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.45.24:469][224]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.45.24
+[2025.03.20-19.45.24:470][224]LogWorld: Bringing up level for play took: 0.002004
+[2025.03.20-19.45.24:470][224]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2025.03.20-19.45.24:473][224]PIE: Server logged in
+[2025.03.20-19.45.24:474][224]PIE: Play in editor total start time 0.174 seconds.
+[2025.03.20-19.45.28:865][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.45.28:865][733]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.45.28:865][733]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.45.28:865][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.45.28:872][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.45.28:892][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.45.28:907][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.45.28:907][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.45.28:908][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.45.28:911][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.45.28:914][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.03.20-19.45.28:945][734]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.03.20-19.45.30:948][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.45.31:021][865]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs94F3B5C84C1C17C8742076BA530E7881.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.45.31:040][865]AssetCheck: New page: Asset Save: AmongUs
+[2025.03.20-19.45.31:040][865]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.46.10:280][396]LogEditorFactories: Performing atomic reimport of [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx]
+[2025.03.20-19.46.10:328][396]LogFbx: Loading FBX Scene from C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx
+[2025.03.20-19.46.10:362][396]LogFbx: FBX Scene Loaded Succesfully
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.009) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cylinder) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.010) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.011) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.007) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.012) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.013) - Body
+[2025.03.20-19.46.10:384][396]LogFbx: Valid bind pose for Pose (Cube.014) - Body
+[2025.03.20-19.46.10:385][396]LogFbx: Valid bind pose for Pose (Cylinder.001) - Body
+[2025.03.20-19.46.10:386][396]LogFbx: Triangulating skeletal mesh Body
+[2025.03.20-19.46.10:548][396]LogFbx: Triangulating skeletal mesh Paper
+[2025.03.20-19.46.10:555][396]LogFbx: Triangulating skeletal mesh Arms
+[2025.03.20-19.46.10:617][396]LogFbx: Triangulating skeletal mesh Glasses
+[2025.03.20-19.46.10:647][396]LogFbx: Triangulating skeletal mesh GlassesStroke.001
+[2025.03.20-19.46.10:662][396]LogFbx: Triangulating skeletal mesh Arms.001
+[2025.03.20-19.46.10:719][396]LogFbx: Triangulating skeletal mesh GlassesStroke
+[2025.03.20-19.46.10:748][396]LogFbx: Triangulating skeletal mesh BodyStroke
+[2025.03.20-19.46.10:919][396]LogFbx: Triangulating skeletal mesh PaperStroke
+[2025.03.20-19.46.10:949][396]LogFbx: Warning: Bones digested - 16  Depth of hierarchy - 6
+[2025.03.20-19.46.11:466][396]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.46.11:466][396]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.46.11:466][396]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.46.11:485][396]LogEditorFactories: -- imported successfully
+[2025.03.20-19.46.11:491][396]FBXImport: FBX File Loading: Found name clash, node 'Body' was renamed to 'Body1' 
+[2025.03.20-19.46.11:491][396]FBXImport: FBX File Loading: Found name clash, node 'Paper' was renamed to 'Paper2' 
+[2025.03.20-19.46.11:491][396]FBXImport: FBX File Loading: Found name clash, node 'glasses' was renamed to 'glasses3' 
+[2025.03.20-19.46.11:491][396]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'AmongUs' was renamed 'AmongUs_ncl1_1' 
+[2025.03.20-19.46.11:491][396]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.03.20-19.46.11:491][396]FBXImport: Warning: The following bones are missing from the bind pose:
+Circle  
+Paper_end  
+Foot.L_end  
+Foot.R_end  
+glasses_end  
+backpack_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2025.03.20-19.46.11:499][396]LogSkeletalMesh: Building Skeletal Mesh AmongUs...
+[2025.03.20-19.46.12:064][396]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.46.12:064][396]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.46.12:064][396]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.46.12:145][396]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/source/AmongUs.AmongUs
+[2025.03.20-19.46.23:120][868]LogSlate: Window 'AmongUs' being destroyed
+[2025.03.20-19.46.23:138][868]LogSlate: Window 'AmongUs' being destroyed
+[2025.03.20-19.46.23:139][868]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.46.23:139][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.46.25:509][105]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.46.25:519][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.46.25:519][105]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:46:25 am)
+[2025.03.20-19.46.25:520][105]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.46.25:534][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014395s)
+[2025.03.20-19.46.25:536][105]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.46.25:536][105]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2025.03.20-19.46.25:536][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.015963s)
+[2025.03.20-19.46.25:566][105]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.03.20-19.46.25:571][105]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.46.25:572][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.46.25:572][105]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.46.25:572][105]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.46.25:572][105]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.46.25:572][105]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.46.25:576][105]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.46.25:577][105]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.46.25:598][105]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.46.25:598][105]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.46.25:598][105]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.46.25:598][105]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.46.25:599][105]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.46.25:599][105]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.46.25:599][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.46.25:599][105]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.46.25:599][105]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.46.25:599][105]LogInit: FAudioDevice initialized.
+[2025.03.20-19.46.25:599][105]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.46.25:613][105]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.46.25:615][105]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.46.25
+[2025.03.20-19.46.25:615][105]LogWorld: Bringing up level for play took: 0.001500
+[2025.03.20-19.46.25:615][105]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2025.03.20-19.46.25:619][105]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.03.20-19.46.25:620][105]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [TopDownCharacter_C]
+[2025.03.20-19.46.25:620][105]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type TopDownCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2025.03.20-19.46.25:621][105]PIE: Server logged in
+[2025.03.20-19.46.25:622][105]PIE: Play in editor total start time 0.107 seconds.
+[2025.03.20-19.46.27:625][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.46.27:625][334]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.46.27:625][334]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.46.27:626][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.46.27:635][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.46.27:654][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.46.27:669][334]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.46.27:669][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.46.27:671][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.46.27:674][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.46.27:678][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.03.20-19.46.27:707][335]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.03.20-19.46.35:627][506]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.46.35:633][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.03.20-19.46.44:228][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.46.44:294][ 55]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs909F1CBA4C6146D49DB8EEB7AEFB6C9C.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.46.44:316][ 55]AssetCheck: New page: Asset Save: AmongUs
+[2025.03.20-19.46.44:316][ 55]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.46.45:491][127]LogEditorFactories: Performing atomic reimport of [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx]
+[2025.03.20-19.46.45:539][127]LogFbx: Loading FBX Scene from C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx
+[2025.03.20-19.46.45:575][127]LogFbx: FBX Scene Loaded Succesfully
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.009) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cylinder) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.010) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.011) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.007) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.012) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.013) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cube.014) - Body
+[2025.03.20-19.46.45:593][127]LogFbx: Valid bind pose for Pose (Cylinder.001) - Body
+[2025.03.20-19.46.45:595][127]LogFbx: Triangulating skeletal mesh Body
+[2025.03.20-19.46.45:752][127]LogFbx: Triangulating skeletal mesh Paper
+[2025.03.20-19.46.45:758][127]LogFbx: Triangulating skeletal mesh Arms
+[2025.03.20-19.46.45:816][127]LogFbx: Triangulating skeletal mesh Glasses
+[2025.03.20-19.46.45:846][127]LogFbx: Triangulating skeletal mesh GlassesStroke.001
+[2025.03.20-19.46.45:862][127]LogFbx: Triangulating skeletal mesh Arms.001
+[2025.03.20-19.46.45:921][127]LogFbx: Triangulating skeletal mesh GlassesStroke
+[2025.03.20-19.46.45:949][127]LogFbx: Triangulating skeletal mesh BodyStroke
+[2025.03.20-19.46.46:098][127]LogFbx: Triangulating skeletal mesh PaperStroke
+[2025.03.20-19.46.46:121][127]LogFbx: Warning: Bones digested - 16  Depth of hierarchy - 6
+[2025.03.20-19.46.46:636][127]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.46.46:636][127]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.46.46:636][127]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.46.46:647][127]LogEditorFactories: -- imported successfully
+[2025.03.20-19.46.46:652][127]FBXImport: FBX File Loading: Found name clash, node 'Body' was renamed to 'Body1' 
+[2025.03.20-19.46.46:652][127]FBXImport: FBX File Loading: Found name clash, node 'Paper' was renamed to 'Paper2' 
+[2025.03.20-19.46.46:652][127]FBXImport: FBX File Loading: Found name clash, node 'glasses' was renamed to 'glasses3' 
+[2025.03.20-19.46.46:652][127]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'AmongUs' was renamed 'AmongUs_ncl1_1' 
+[2025.03.20-19.46.46:652][127]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.03.20-19.46.46:652][127]FBXImport: Warning: The following bones are missing from the bind pose:
+Circle  
+Paper_end  
+Foot.L_end  
+Foot.R_end  
+glasses_end  
+backpack_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2025.03.20-19.46.46:659][127]LogSkeletalMesh: Building Skeletal Mesh AmongUs...
+[2025.03.20-19.46.47:210][127]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.46.47:210][127]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.46.47:210][127]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.46.47:286][127]LogSkeletalMesh: Built Skeletal Mesh [0.63s] /Game/source/AmongUs.AmongUs
+[2025.03.20-19.46.53:217][587]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.46.53:227][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.46.53:227][587]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:46:53 am)
+[2025.03.20-19.46.53:227][587]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.46.53:244][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017115s)
+[2025.03.20-19.46.53:244][587]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.46.53:245][587]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2025.03.20-19.46.53:245][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.018374s)
+[2025.03.20-19.46.53:263][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.03.20-19.46.53:269][587]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.46.53:269][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.46.53:269][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.46.53:269][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.46.53:269][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.46.53:269][587]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.46.53:274][587]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.46.53:274][587]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.46.53:290][587]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.46.53:291][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.46.53:291][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.46.53:291][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.46.53:291][587]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.46.53:291][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.46.53:291][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.46.53:292][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.46.53:292][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.46.53:292][587]LogInit: FAudioDevice initialized.
+[2025.03.20-19.46.53:292][587]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.46.53:313][587]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.46.53:321][587]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.46.53
+[2025.03.20-19.46.53:322][587]LogWorld: Bringing up level for play took: 0.006566
+[2025.03.20-19.46.53:322][587]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2025.03.20-19.46.53:332][587]PIE: Server logged in
+[2025.03.20-19.46.53:334][587]PIE: Play in editor total start time 0.112 seconds.
+[2025.03.20-19.47.01:234][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.47.01:234][512]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.47.01:235][512]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.47.01:235][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.47.01:245][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.47.01:264][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.47.01:279][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.47.01:279][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.47.01:280][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.47.01:283][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.47.01:286][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.03.20-19.47.01:314][513]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.03.20-19.47.08:436][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.47.08:512][ 59]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs1A241A2446C0759A8402FEADEACEBCA0.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.47.08:534][ 59]AssetCheck: New page: Asset Save: AmongUs
+[2025.03.20-19.47.08:534][ 59]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.47.11:135][221]LogEditorFactories: Performing atomic reimport of [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx]
+[2025.03.20-19.47.11:179][221]LogFbx: Loading FBX Scene from C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx
+[2025.03.20-19.47.11:211][221]LogFbx: FBX Scene Loaded Succesfully
+[2025.03.20-19.47.11:228][221]LogFbx: Valid bind pose for Pose (Cube.009) - Body
+[2025.03.20-19.47.11:228][221]LogFbx: Valid bind pose for Pose (Cylinder) - Body
+[2025.03.20-19.47.11:228][221]LogFbx: Valid bind pose for Pose (Cube.010) - Body
+[2025.03.20-19.47.11:228][221]LogFbx: Valid bind pose for Pose (Cube.011) - Body
+[2025.03.20-19.47.11:228][221]LogFbx: Valid bind pose for Pose (Cube.007) - Body
+[2025.03.20-19.47.11:229][221]LogFbx: Valid bind pose for Pose (Cube.012) - Body
+[2025.03.20-19.47.11:229][221]LogFbx: Valid bind pose for Pose (Cube.013) - Body
+[2025.03.20-19.47.11:229][221]LogFbx: Valid bind pose for Pose (Cube.014) - Body
+[2025.03.20-19.47.11:229][221]LogFbx: Valid bind pose for Pose (Cylinder.001) - Body
+[2025.03.20-19.47.11:231][221]LogFbx: Triangulating skeletal mesh Body
+[2025.03.20-19.47.11:406][221]LogFbx: Triangulating skeletal mesh Paper
+[2025.03.20-19.47.11:411][221]LogFbx: Triangulating skeletal mesh Arms
+[2025.03.20-19.47.11:471][221]LogFbx: Triangulating skeletal mesh Glasses
+[2025.03.20-19.47.11:502][221]LogFbx: Triangulating skeletal mesh GlassesStroke.001
+[2025.03.20-19.47.11:518][221]LogFbx: Triangulating skeletal mesh Arms.001
+[2025.03.20-19.47.11:577][221]LogFbx: Triangulating skeletal mesh GlassesStroke
+[2025.03.20-19.47.11:608][221]LogFbx: Triangulating skeletal mesh BodyStroke
+[2025.03.20-19.47.11:755][221]LogFbx: Triangulating skeletal mesh PaperStroke
+[2025.03.20-19.47.11:779][221]LogFbx: Warning: Bones digested - 16  Depth of hierarchy - 6
+[2025.03.20-19.47.12:282][221]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.47.12:283][221]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.47.12:283][221]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.47.12:293][221]LogEditorFactories: -- imported successfully
+[2025.03.20-19.47.12:297][221]FBXImport: FBX File Loading: Found name clash, node 'Body' was renamed to 'Body1' 
+[2025.03.20-19.47.12:298][221]FBXImport: FBX File Loading: Found name clash, node 'Paper' was renamed to 'Paper2' 
+[2025.03.20-19.47.12:298][221]FBXImport: FBX File Loading: Found name clash, node 'glasses' was renamed to 'glasses3' 
+[2025.03.20-19.47.12:298][221]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'AmongUs' was renamed 'AmongUs_ncl1_1' 
+[2025.03.20-19.47.12:298][221]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.03.20-19.47.12:298][221]FBXImport: Warning: The following bones are missing from the bind pose:
+Circle  
+Paper_end  
+Foot.L_end  
+Foot.R_end  
+glasses_end  
+backpack_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2025.03.20-19.47.12:305][221]LogSkeletalMesh: Building Skeletal Mesh AmongUs...
+[2025.03.20-19.47.12:846][221]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.47.12:846][221]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.47.12:846][221]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.47.12:923][221]LogSkeletalMesh: Built Skeletal Mesh [0.62s] /Game/source/AmongUs.AmongUs
+[2025.03.20-19.47.17:816][593]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.47.17:826][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.47.17:827][593]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:47:17 am)
+[2025.03.20-19.47.17:827][593]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.47.17:842][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015036s)
+[2025.03.20-19.47.17:843][593]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.47.17:843][593]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2025.03.20-19.47.17:843][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016405s)
+[2025.03.20-19.47.17:864][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.03.20-19.47.17:868][593]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.47.17:869][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.47.17:869][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.47.17:869][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.47.17:869][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.47.17:869][593]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.47.17:872][593]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.47.17:872][593]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.47.17:890][593]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.47.17:890][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.47.17:890][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.47.17:890][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.47.17:892][593]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.47.17:892][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.47.17:892][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.47.17:894][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.47.17:894][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.47.17:894][593]LogInit: FAudioDevice initialized.
+[2025.03.20-19.47.17:894][593]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.47.17:908][593]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.47.17:910][593]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.47.17
+[2025.03.20-19.47.17:911][593]LogWorld: Bringing up level for play took: 0.001589
+[2025.03.20-19.47.17:911][593]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2025.03.20-19.47.17:914][593]PIE: Server logged in
+[2025.03.20-19.47.17:915][593]PIE: Play in editor total start time 0.093 seconds.
+[2025.03.20-19.47.25:088][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.47.25:088][441]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.47.25:088][441]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.47.25:088][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.47.25:100][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.47.25:126][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.47.25:141][441]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.47.25:142][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.47.25:143][441]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.47.25:146][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.47.25:149][441]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2025.03.20-19.47.25:180][442]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.03.20-19.47.36:729][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-19.47.36:799][347]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs6158047D485162D02C2DE0A79CABE21E.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-19.47.36:818][347]AssetCheck: New page: Asset Save: AmongUs
+[2025.03.20-19.47.36:818][347]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-19.47.40:240][575]LogEditorFactories: Performing atomic reimport of [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx]
+[2025.03.20-19.47.40:280][575]LogFbx: Loading FBX Scene from C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.fbx
+[2025.03.20-19.47.40:312][575]LogFbx: FBX Scene Loaded Succesfully
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.009) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cylinder) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.010) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.011) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.007) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.012) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.013) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cube.014) - Body
+[2025.03.20-19.47.40:335][575]LogFbx: Valid bind pose for Pose (Cylinder.001) - Body
+[2025.03.20-19.47.40:337][575]LogFbx: Triangulating skeletal mesh Body
+[2025.03.20-19.47.40:497][575]LogFbx: Triangulating skeletal mesh Paper
+[2025.03.20-19.47.40:503][575]LogFbx: Triangulating skeletal mesh Arms
+[2025.03.20-19.47.40:567][575]LogFbx: Triangulating skeletal mesh Glasses
+[2025.03.20-19.47.40:596][575]LogFbx: Triangulating skeletal mesh GlassesStroke.001
+[2025.03.20-19.47.40:611][575]LogFbx: Triangulating skeletal mesh Arms.001
+[2025.03.20-19.47.40:669][575]LogFbx: Triangulating skeletal mesh GlassesStroke
+[2025.03.20-19.47.40:697][575]LogFbx: Triangulating skeletal mesh BodyStroke
+[2025.03.20-19.47.40:849][575]LogFbx: Triangulating skeletal mesh PaperStroke
+[2025.03.20-19.47.40:872][575]LogFbx: Warning: Bones digested - 16  Depth of hierarchy - 6
+[2025.03.20-19.47.41:415][575]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.47.41:415][575]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.47.41:415][575]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.47.41:426][575]LogEditorFactories: -- imported successfully
+[2025.03.20-19.47.41:432][575]FBXImport: FBX File Loading: Found name clash, node 'Body' was renamed to 'Body1' 
+[2025.03.20-19.47.41:432][575]FBXImport: FBX File Loading: Found name clash, node 'Paper' was renamed to 'Paper2' 
+[2025.03.20-19.47.41:432][575]FBXImport: FBX File Loading: Found name clash, node 'glasses' was renamed to 'glasses3' 
+[2025.03.20-19.47.41:432][575]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'AmongUs' was renamed 'AmongUs_ncl1_1' 
+[2025.03.20-19.47.41:432][575]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.03.20-19.47.41:432][575]FBXImport: Warning: The following bones are missing from the bind pose:
+Circle  
+Paper_end  
+Foot.L_end  
+Foot.R_end  
+glasses_end  
+backpack_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2025.03.20-19.47.41:439][575]LogSkeletalMesh: Building Skeletal Mesh AmongUs...
+[2025.03.20-19.47.41:973][575]LogSkeletalMesh: Section 0: Material=0, 11045 triangles
+[2025.03.20-19.47.41:973][575]LogSkeletalMesh: Section 1: Material=1, 672 triangles
+[2025.03.20-19.47.41:973][575]LogSkeletalMesh: Section 2: Material=2, 11077 triangles
+[2025.03.20-19.47.42:049][575]LogSkeletalMesh: Built Skeletal Mesh [0.61s] /Game/source/AmongUs.AmongUs
+[2025.03.20-19.47.54:735][119]LogTemp: Repeating last play command: Selected Viewport
+[2025.03.20-19.47.54:746][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.20-19.47.54:746][119]PIE: New page: PIE session: TopDownExampleMap (20-Mar-2025, 11:47:54 am)
+[2025.03.20-19.47.54:746][119]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.47.54:763][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017356s)
+[2025.03.20-19.47.54:765][119]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2025.03.20-19.47.54:765][119]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2025.03.20-19.47.54:765][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019075s)
+[2025.03.20-19.47.54:787][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.03.20-19.47.54:792][119]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.20-19.47.54:793][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.03.20-19.47.54:793][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.20-19.47.54:794][119]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.20-19.47.54:794][119]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.20-19.47.54:794][119]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.20-19.47.54:794][119]LogAudioMixer: Display: Initializing audio mixer.
+[2025.03.20-19.47.54:799][119]LogAudioMixer: Display: 0: FrontLeft
+[2025.03.20-19.47.54:799][119]LogAudioMixer: Display: 1: FrontRight
+[2025.03.20-19.47.54:819][119]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2025.03.20-19.47.54:819][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.20-19.47.54:819][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.20-19.47.54:819][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.20-19.47.54:819][119]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.03.20-19.47.54:819][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2025.03.20-19.47.54:820][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2025.03.20-19.47.54:821][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2025.03.20-19.47.54:821][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2025.03.20-19.47.54:821][119]LogInit: FAudioDevice initialized.
+[2025.03.20-19.47.54:821][119]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownExampleMap'.
+[2025.03.20-19.47.54:832][119]LogLoad: Game class is 'TopDownPuzzleGameMode'
+[2025.03.20-19.47.54:834][119]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2025.03.20-15.47.54
+[2025.03.20-19.47.54:834][119]LogWorld: Bringing up level for play took: 0.001417
+[2025.03.20-19.47.54:834][119]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2025.03.20-19.47.54:838][119]PIE: Server logged in
+[2025.03.20-19.47.54:840][119]PIE: Play in editor total start time 0.1 seconds.
+[2025.03.20-19.48.00:378][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.48.00:378][769]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2025.03.20-19.48.00:378][769]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-19.48.00:379][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.48.00:390][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.20-19.48.00:410][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-19.48.00:426][769]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.20-19.48.00:426][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.48.00:427][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-19.48.00:430][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.20-19.48.00:432][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.03.20-19.48.00:462][770]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.03.20-19.48.58:388][595]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.03.20-19.48.58:414][595]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.03.20-19.51.46:265][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.03.20-19.51.46:299][732]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownExampleMap_Auto3BD3B8ADA49D8A773EA0D7EA77C693238.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto3.umap'
+[2025.03.20-19.51.46:302][732]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.059
+[2025.03.20-19.51.46:302][732]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2025.03.20-19.51.46:304][732]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/source/AmongUs] ([2] browsable assets)...
+[2025.03.20-19.51.46:317][732]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/source/AmongUs.AmongUs]
+[2025.03.20-19.51.46:326][732]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/source/AmongUs.AmongUs]
+[2025.03.20-19.51.46:327][732]OBJ SavePackage: Finished generating thumbnails for package [/Game/source/AmongUs]
+[2025.03.20-19.51.46:327][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/source/AmongUs_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.03.20-19.51.46:402][732]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs_Auto3DA7A37B44802386C13EB75BD28561B53.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Autosaves/Game/source/AmongUs_Auto3.uasset'
+[2025.03.20-19.51.46:404][732]LogFileHelpers: Auto-saving content packages took 0.101
+[2025.03.20-19.51.54:628][526]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2025.03.20-19.51.58:244][731]BlueprintLog: New page: Compile TopDownCharacter
+[2025.03.20-19.51.58:366][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.03.20-19.52.51:997][562]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.03.20-19.52.52:020][562]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2025.03.20-20.17.47:912][603]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownCharacterC05267074BA54ECB706A278B5745C589.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset'
+[2025.03.20-20.17.47:938][603]AssetCheck: New page: Asset Save: TopDownCharacter
+[2025.03.20-20.17.47:938][603]LogContentValidation: Display: Validating Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2025.03.20-20.17.50:986][775]LogSlate: Window 'TopDownCharacter' being destroyed
+[2025.03.20-20.17.50:997][775]LogSlate: Window 'TopDownCharacter' being destroyed
+[2025.03.20-20.17.50:997][775]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.17.50:997][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-20.17.51:088][775]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.17.51:088][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.20-20.17.52:387][847]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownCharacter1135DA7D46510F676822B6ADF336693C.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset'
+[2025.03.20-20.17.52:405][847]AssetCheck: New page: Asset Save: TopDownCharacter
+[2025.03.20-20.17.52:405][847]LogContentValidation: Display: Validating Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2025.03.20-20.17.54:480][970]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownCharacter8898EC2D4047C4C9B9175C909DEE43EE.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset'
+[2025.03.20-20.17.54:498][970]AssetCheck: New page: Asset Save: TopDownCharacter
+[2025.03.20-20.17.54:498][970]LogContentValidation: Display: Validating Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2025.03.20-20.17.55:245][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.03.20-20.17.55:268][ 10]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownExampleMap31FB247C419F7E1A7371B4B1398ED49B.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2025.03.20-20.17.55:410][ 10]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/TopDownExampleMap_BuiltData7B9D247D4B709FD595C1A29075533B82.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2025.03.20-20.17.55:441][ 10]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.20-20.17.55:441][ 10]LogContentValidation: Display: Validating World /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap
+[2025.03.20-20.17.55:441][ 10]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2025.03.20-20.17.56:319][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.03.20-20.17.59:798][ 62]LogSlate: Window 'Save Content' being destroyed
+[2025.03.20-20.17.59:838][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset" SILENT=true
+[2025.03.20-20.17.59:910][ 62]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs3C4D47D5495E49DF6C5C80A9B4F2973F.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs.uasset'
+[2025.03.20-20.17.59:913][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/AmongUs_Skeleton" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs_Skeleton.uasset" SILENT=true
+[2025.03.20-20.17.59:914][ 62]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/AmongUs_Skeleton5A47728B4CE1302F96B959AE9BFFE109.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/AmongUs_Skeleton.uasset'
+[2025.03.20-20.17.59:939][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/blackGlasses" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/blackGlasses.uasset" SILENT=true
+[2025.03.20-20.17.59:946][ 62]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/blackGlassesA5B661DC4E21214E3318A1809250D2BB.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/blackGlasses.uasset'
+[2025.03.20-20.17.59:967][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/source/BlackInverted" FILE="../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/BlackInverted.uasset" SILENT=true
+[2025.03.20-20.17.59:974][ 62]LogSavePackage: Moving '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/BlackInverted4EBB9D7744D6D59458D1F3B38EAD8CAA.tmp' to '../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/source/BlackInverted.uasset'
+[2025.03.20-20.18.00:045][ 62]LogSlate: Window 'TopDownPuzzle - Unreal Editor' being destroyed
+[2025.03.20-20.18.00:210][ 62]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.20-20.18.00:210][ 62]LogContentValidation: Display: Validating Skeleton /Game/source/AmongUs_Skeleton.AmongUs_Skeleton
+[2025.03.20-20.18.00:210][ 62]LogContentValidation: Display: Validating Material /Game/source/BlackInverted.BlackInverted
+[2025.03.20-20.18.00:210][ 62]LogContentValidation: Display: Validating Material /Game/source/blackGlasses.blackGlasses
+[2025.03.20-20.18.00:210][ 62]LogContentValidation: Display: Validating SkeletalMesh /Game/source/AmongUs.AmongUs
+[2025.03.20-20.18.00:212][ 63]Cmd: QUIT_EDITOR
+[2025.03.20-20.18.00:212][ 63]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.03.20-20.18.00:222][ 63]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.03.20-20.18.00:291][ 63]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.03.20-20.18.00:291][ 63]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.03.20-20.18.00:291][ 63]LogAudio: Display: Audio Device unregistered from world 'TopDownExampleMap'.
+[2025.03.20-20.18.00:291][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-20.18.00:293][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2025.03.20-20.18.00:327][ 63]LogAudio: Display: Audio Device Manager Shutdown
+[2025.03.20-20.18.00:328][ 63]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2025.03.20-20.18.00:336][ 63]LogExit: Preparing to exit.
+[2025.03.20-20.18.00:376][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.03.20-20.18.01:081][ 63]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:083][ 63]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2025.03.20-20.18.01:085][ 63]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:087][ 63]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:088][ 63]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:089][ 63]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.03.20-20.18.01:290][ 63]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2025.03.20-20.18.01:332][ 63]LogExit: Editor shut down
+[2025.03.20-20.18.01:333][ 63]LogExit: Transaction tracking system shut down
+[2025.03.20-20.18.01:715][ 63]LogExit: Object subsystem successfully closed.
+[2025.03.20-20.18.01:735][ 63]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.20-20.18.01:735][ 63]LogShaderCompilers: Display: Total job queries 388, among them cache hits 125 (32.22%)
+[2025.03.20-20.18.01:735][ 63]LogShaderCompilers: Display: Tracking 167 distinct input hashes that result in 70 distinct outputs (41.92%)
+[2025.03.20-20.18.01:735][ 63]LogShaderCompilers: Display: RAM used: 0.38 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2025.03.20-20.18.01:735][ 63]LogShaderCompilers: Display: ================================================
+[2025.03.20-20.18.01:753][ 63]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.03.20-20.18.01:999][ 63]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (884)
+[2025.03.20-20.18.01:999][ 63]LogModuleManager: Shutting down and abandoning module PinnedCommandList (882)
+[2025.03.20-20.18.01:999][ 63]LogModuleManager: Shutting down and abandoning module SkeletonEditor (880)
+[2025.03.20-20.18.01:999][ 63]LogModuleManager: Shutting down and abandoning module BlueprintGraph (878)
+[2025.03.20-20.18.01:999][ 63]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (876)
+[2025.03.20-20.18.02:000][ 63]LogModuleManager: Shutting down and abandoning module Voice (874)
+[2025.03.20-20.18.02:000][ 63]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (872)
+[2025.03.20-20.18.02:000][ 63]LogModuleManager: Shutting down and abandoning module SceneOutliner (870)
+[2025.03.20-20.18.02:000][ 63]LogModuleManager: Shutting down and abandoning module AddContentDialog (868)
+[2025.03.20-20.18.02:003][ 63]LogModuleManager: Shutting down and abandoning module WidgetCarousel (867)
+[2025.03.20-20.18.02:003][ 63]LogModuleManager: Shutting down and abandoning module EditorWidgets (864)
+[2025.03.20-20.18.02:003][ 63]LogModuleManager: Shutting down and abandoning module StatsViewer (862)
+[2025.03.20-20.18.02:004][ 63]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (860)
+[2025.03.20-20.18.02:004][ 63]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (858)
+[2025.03.20-20.18.02:004][ 63]LogModuleManager: Shutting down and abandoning module AutomationWorker (856)
+[2025.03.20-20.18.02:005][ 63]LogModuleManager: Shutting down and abandoning module SteamVREditor (854)
+[2025.03.20-20.18.02:005][ 63]LogModuleManager: Shutting down and abandoning module OculusMR (852)
+[2025.03.20-20.18.02:005][ 63]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (850)
+[2025.03.20-20.18.02:006][ 63]LogModuleManager: Shutting down and abandoning module TakeRecorder (849)
+[2025.03.20-20.18.02:007][ 63]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (846)
+[2025.03.20-20.18.02:007][ 63]LogModuleManager: Shutting down and abandoning module TakesCore (844)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module OpenXRInput (842)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module GooglePADEditor (840)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (838)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module PlanarCut (836)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module CharacterAI (834)
+[2025.03.20-20.18.02:008][ 63]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (832)
+[2025.03.20-20.18.02:009][ 63]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (830)
+[2025.03.20-20.18.02:010][ 63]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (828)
+[2025.03.20-20.18.02:011][ 63]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (826)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (824)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (822)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (820)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (818)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (816)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module WebMMedia (814)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (812)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (810)
+[2025.03.20-20.18.02:012][ 63]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (808)
+[2025.03.20-20.18.02:013][ 63]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (806)
+[2025.03.20-20.18.02:014][ 63]LogModuleManager: Shutting down and abandoning module SequenceRecorder (805)
+[2025.03.20-20.18.02:014][ 63]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (802)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (800)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (798)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (796)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (794)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (792)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (790)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module TextureAlignMode (788)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module BspMode (786)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module GeometryMode (784)
+[2025.03.20-20.18.02:015][ 63]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (782)
+[2025.03.20-20.18.02:016][ 63]LogModuleManager: Shutting down and abandoning module SmartSnapping (780)
+[2025.03.20-20.18.02:016][ 63]LogModuleManager: Shutting down and abandoning module SessionServices (778)
+[2025.03.20-20.18.02:017][ 63]LogModuleManager: Shutting down and abandoning module MeshPaint (776)
+[2025.03.20-20.18.02:018][ 63]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (774)
+[2025.03.20-20.18.02:018][ 63]LogModuleManager: Shutting down and abandoning module FoliageEdit (772)
+[2025.03.20-20.18.02:019][ 63]LogModuleManager: Shutting down and abandoning module LandscapeEditor (770)
+[2025.03.20-20.18.02:020][ 63]LogModuleManager: Shutting down and abandoning module MeshPaintMode (768)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (766)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module ActorPickerMode (764)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module PlacementMode (762)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module ViewportSnapping (760)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module ViewportInteraction (758)
+[2025.03.20-20.18.02:021][ 63]LogModuleManager: Shutting down and abandoning module ClothPainter (756)
+[2025.03.20-20.18.02:022][ 63]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (755)
+[2025.03.20-20.18.02:022][ 63]LogModuleManager: Shutting down and abandoning module LogVisualizer (752)
+[2025.03.20-20.18.02:023][ 63]LogModuleManager: Shutting down and abandoning module IntroTutorials (750)
+[2025.03.20-20.18.02:024][ 63]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (749)
+[2025.03.20-20.18.02:024][ 63]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (746)
+[2025.03.20-20.18.02:024][ 63]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (744)
+[2025.03.20-20.18.02:024][ 63]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (742)
+[2025.03.20-20.18.02:024][ 63]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (741)
+[2025.03.20-20.18.02:234][ 63]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (738)
+[2025.03.20-20.18.02:234][ 63]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (736)
+[2025.03.20-20.18.02:234][ 63]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (734)
+[2025.03.20-20.18.02:234][ 63]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (732)
+[2025.03.20-20.18.02:234][ 63]LogModuleManager: Shutting down and abandoning module TraceInsights (730)
+[2025.03.20-20.18.02:236][ 63]MemoryProfiler: Shutdown
+[2025.03.20-20.18.02:237][ 63]NetworkingProfiler: Shutdown
+[2025.03.20-20.18.02:237][ 63]LoadingProfiler: Shutdown
+[2025.03.20-20.18.02:237][ 63]TimingProfiler: Shutdown
+[2025.03.20-20.18.02:239][ 63]LogModuleManager: Shutting down and abandoning module TraceServices (729)
+[2025.03.20-20.18.02:240][ 63]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (726)
+[2025.03.20-20.18.02:240][ 63]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (724)
+[2025.03.20-20.18.02:240][ 63]LogModuleManager: Shutting down and abandoning module InputBindingEditor (722)
+[2025.03.20-20.18.02:241][ 63]LogModuleManager: Shutting down and abandoning module MergeActors (720)
+[2025.03.20-20.18.02:242][ 63]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (718)
+[2025.03.20-20.18.02:242][ 63]LogModuleManager: Shutting down and abandoning module LocalizationService (717)
+[2025.03.20-20.18.02:243][ 63]LogModuleManager: Shutting down and abandoning module HardwareTargeting (714)
+[2025.03.20-20.18.02:243][ 63]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (712)
+[2025.03.20-20.18.02:243][ 63]LogModuleManager: Shutting down and abandoning module UndoHistory (710)
+[2025.03.20-20.18.02:243][ 63]LogModuleManager: Shutting down and abandoning module XmlParser (708)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module Blutility (706)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (704)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (703)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (700)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (699)
+[2025.03.20-20.18.02:244][ 63]LogModuleManager: Shutting down and abandoning module SettingsEditor (696)
+[2025.03.20-20.18.02:245][ 63]LogModuleManager: Shutting down and abandoning module ProjectLauncher (694)
+[2025.03.20-20.18.02:245][ 63]LogModuleManager: Shutting down and abandoning module SessionFrontend (692)
+[2025.03.20-20.18.02:246][ 63]LogModuleManager: Shutting down and abandoning module ProfilerClient (690)
+[2025.03.20-20.18.02:246][ 63]LogModuleManager: Shutting down and abandoning module DeviceManager (688)
+[2025.03.20-20.18.02:246][ 63]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (687)
+[2025.03.20-20.18.02:280][ 63]LogModuleManager: Shutting down and abandoning module AutomationController (684)
+[2025.03.20-20.18.02:282][ 63]LogModuleManager: Shutting down and abandoning module AutomationWindow (682)
+[2025.03.20-20.18.02:283][ 63]LogModuleManager: Shutting down and abandoning module Layers (680)
+[2025.03.20-20.18.02:284][ 63]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (678)
+[2025.03.20-20.18.02:284][ 63]LogModuleManager: Shutting down and abandoning module DetailCustomizations (676)
+[2025.03.20-20.18.02:284][ 63]LogModuleManager: Shutting down and abandoning module PackagesDialog (674)
+[2025.03.20-20.18.02:285][ 63]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (672)
+[2025.03.20-20.18.02:286][ 63]LogModuleManager: Shutting down and abandoning module Persona (670)
+[2025.03.20-20.18.02:286][ 63]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (669)
+[2025.03.20-20.18.02:286][ 63]LogModuleManager: Shutting down and abandoning module Kismet (666)
+[2025.03.20-20.18.02:297][ 63]LogModuleManager: Shutting down and abandoning module KismetWidgets (665)
+[2025.03.20-20.18.02:297][ 63]LogModuleManager: Shutting down and abandoning module GraphEditor (662)
+[2025.03.20-20.18.02:298][ 63]LogModuleManager: Shutting down and abandoning module StructViewer (660)
+[2025.03.20-20.18.02:298][ 63]LogModuleManager: Shutting down and abandoning module ClassViewer (658)
+[2025.03.20-20.18.02:300][ 63]LogModuleManager: Shutting down and abandoning module Toolbox (656)
+[2025.03.20-20.18.02:300][ 63]LogModuleManager: Shutting down and abandoning module ModuleUI (654)
+[2025.03.20-20.18.02:300][ 63]LogModuleManager: Shutting down and abandoning module OutputLog (652)
+[2025.03.20-20.18.02:302][ 63]LogModuleManager: Shutting down and abandoning module GammaUI (650)
+[2025.03.20-20.18.02:302][ 63]LogModuleManager: Shutting down and abandoning module Documentation (648)
+[2025.03.20-20.18.02:302][ 63]LogModuleManager: Shutting down and abandoning module LiveCoding (646)
+[2025.03.20-20.18.02:303][ 63]LogModuleManager: Shutting down and abandoning module LevelSequence (644)
+[2025.03.20-20.18.02:303][ 63]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (642)
+[2025.03.20-20.18.02:303][ 63]LogModuleManager: Shutting down and abandoning module MovieScene (640)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (638)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module LauncherPlatform (636)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module AnalyticsET (634)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module PortalServices (632)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module PortalRpc (630)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module MessagingRpc (628)
+[2025.03.20-20.18.02:304][ 63]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (626)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module AudioMixerCore (625)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module AIModule (622)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module GameplayDebugger (621)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module AITestSuite (619)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module NavigationSystem (617)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (614)
+[2025.03.20-20.18.02:305][ 63]LogModuleManager: Shutting down and abandoning module ProfilerService (612)
+[2025.03.20-20.18.02:399][ 63]LogModuleManager: Shutting down and abandoning module TaskGraph (610)
+[2025.03.20-20.18.02:400][ 63]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (608)
+[2025.03.20-20.18.02:400][ 63]LogModuleManager: Shutting down and abandoning module OculusEditor (606)
+[2025.03.20-20.18.02:402][ 63]LogModuleManager: Shutting down and abandoning module OculusInput (604)
+[2025.03.20-20.18.02:402][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (602)
+[2025.03.20-20.18.02:402][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (600)
+[2025.03.20-20.18.02:402][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (598)
+[2025.03.20-20.18.02:402][ 63]LogModuleManager: Shutting down and abandoning module CollectionManager (597)
+[2025.03.20-20.18.02:403][ 63]LogModuleManager: Shutting down and abandoning module SynthesisEditor (594)
+[2025.03.20-20.18.02:403][ 63]LogModuleManager: Shutting down and abandoning module Synthesis (592)
+[2025.03.20-20.18.02:403][ 63]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (590)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (588)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module TakeSequencer (586)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module TakeMovieScene (584)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module OpenXREditor (582)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (580)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module GooglePAD (578)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module ScreenshotTools (576)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module EditableMesh (574)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (572)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module CableComponent (570)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AudioCapture (568)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (567)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (564)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AssetTags (562)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (560)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AppleImageUtils (558)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module AndroidPermission (556)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (554)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (552)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (550)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module MotoSynth (548)
+[2025.03.20-20.18.02:404][ 63]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (546)
+[2025.03.20-20.18.02:405][ 63]LogOpenImageDenoise: OIDN shutting down
+[2025.03.20-20.18.02:405][ 63]LogModuleManager: Shutting down and abandoning module MeshConversion (544)
+[2025.03.20-20.18.02:405][ 63]LogModuleManager: Shutting down and abandoning module DynamicMesh (542)
+[2025.03.20-20.18.02:405][ 63]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (540)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometricObjects (538)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (536)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (535)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (532)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (530)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (528)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (526)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (524)
+[2025.03.20-20.18.02:406][ 63]LogModuleManager: Shutting down and abandoning module ChaosNiagara (522)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module FractureEditor (520)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (519)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (516)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module BackChannel (514)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (512)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module AutomationUtils (510)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module AlembicImporter (508)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module AlembicLibrary (507)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module GeometryCache (506)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (505)
+[2025.03.20-20.18.02:407][ 63]LogModuleManager: Shutting down and abandoning module TemplateSequence (500)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (498)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (496)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MediaCompositing (494)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module ImgMedia (492)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (490)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (488)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (486)
+[2025.03.20-20.18.02:408][ 63]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (484)
+[2025.03.20-20.18.02:410][ 63]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (482)
+[2025.03.20-20.18.02:410][ 63]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (480)
+[2025.03.20-20.18.02:410][ 63]LogModuleManager: Shutting down and abandoning module UObjectPlugin (478)
+[2025.03.20-20.18.02:410][ 63]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (476)
+[2025.03.20-20.18.02:411][ 63]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (474)
+[2025.03.20-20.18.02:411][ 63]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (472)
+[2025.03.20-20.18.02:411][ 63]LogModuleManager: Shutting down and abandoning module PluginUtils (470)
+[2025.03.20-20.18.02:411][ 63]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (468)
+[2025.03.20-20.18.02:412][ 63]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (466)
+[2025.03.20-20.18.02:413][ 63]LogModuleManager: Shutting down and abandoning module GitSourceControl (464)
+[2025.03.20-20.18.02:413][ 63]LogModuleManager: Shutting down and abandoning module SourceControl (463)
+[2025.03.20-20.18.02:414][ 63]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (460)
+[2025.03.20-20.18.02:414][ 63]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (458)
+[2025.03.20-20.18.02:414][ 63]LogModuleManager: Shutting down and abandoning module PluginBrowser (456)
+[2025.03.20-20.18.02:415][ 63]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (454)
+[2025.03.20-20.18.02:415][ 63]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (452)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (450)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module CurveEditorTools (448)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (446)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (444)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module CryptoKeys (442)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (440)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (438)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (436)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (434)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (432)
+[2025.03.20-20.18.02:416][ 63]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (430)
+[2025.03.20-20.18.02:417][ 63]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (428)
+[2025.03.20-20.18.02:417][ 63]LogModuleManager: Shutting down and abandoning module LiveLink (426)
+[2025.03.20-20.18.02:734][ 63]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (424)
+[2025.03.20-20.18.02:734][ 63]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (422)
+[2025.03.20-20.18.02:734][ 63]LogModuleManager: Shutting down and abandoning module Paper2DEditor (420)
+[2025.03.20-20.18.02:736][ 63]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (418)
+[2025.03.20-20.18.02:736][ 63]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (416)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module TopDownPuzzle (414)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module AnimGraph (413)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module SoundFields (410)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module SignificanceManager (408)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (406)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (404)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (402)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (398)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (396)
+[2025.03.20-20.18.02:737][ 63]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (394)
+[2025.03.20-20.18.02:738][ 63]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (392)
+[2025.03.20-20.18.02:738][ 63]LogModuleManager: Shutting down and abandoning module ActorSequence (390)
+[2025.03.20-20.18.02:738][ 63]LogModuleManager: Shutting down and abandoning module UdpMessaging (388)
+[2025.03.20-20.18.02:839][ 63]LogModuleManager: Shutting down and abandoning module TcpMessaging (386)
+[2025.03.20-20.18.02:940][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (384)
+[2025.03.20-20.18.02:940][ 63]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (382)
+[2025.03.20-20.18.02:940][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (380)
+[2025.03.20-20.18.02:940][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (378)
+[2025.03.20-20.18.02:940][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (376)
+[2025.03.20-20.18.02:941][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (374)
+[2025.03.20-20.18.02:941][ 63]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2025.03.20-20.18.02:941][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (372)
+[2025.03.20-20.18.02:941][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (370)
+[2025.03.20-20.18.02:941][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (368)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (366)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapController (364)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (362)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module MagicLeapAR (360)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (358)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module SignalProcessing (355)
+[2025.03.20-20.18.02:943][ 63]LogModuleManager: Shutting down and abandoning module NiagaraEditor (353)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module NiagaraCore (350)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (348)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (346)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (344)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module FacialAnimation (342)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module DataValidation (340)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module AnimationSharing (338)
+[2025.03.20-20.18.02:946][ 63]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (336)
+[2025.03.20-20.18.02:948][ 63]LogModuleManager: Shutting down and abandoning module LevelEditor (335)
+[2025.03.20-20.18.02:953][ 63]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (334)
+[2025.03.20-20.18.02:953][ 63]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (332)
+[2025.03.20-20.18.02:953][ 63]LogModuleManager: Shutting down and abandoning module MainFrame (330)
+[2025.03.20-20.18.02:953][ 63]LogModuleManager: Shutting down and abandoning module HotReload (329)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module ToolMenus (325)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowser (323)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowserData (322)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module TreeMap (319)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module GameplayCameras (316)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2025.03.20-20.18.02:954][ 63]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (312)
+[2025.03.20-20.18.02:955][ 63]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2025.03.20-20.18.02:955][ 63]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2025.03.20-20.18.02:965][ 63]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2025.03.20-20.18.02:965][ 63]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2025.03.20-20.18.02:965][ 63]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2025.03.20-20.18.02:965][ 63]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2025.03.20-20.18.02:965][ 63]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2025.03.20-20.18.02:966][ 63]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2025.03.20-20.18.02:966][ 63]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2025.03.20-20.18.02:966][ 63]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2025.03.20-20.18.02:966][ 63]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2025.03.20-20.18.02:967][ 63]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2025.03.20-20.18.02:967][ 63]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2025.03.20-20.18.02:967][ 63]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2025.03.20-20.18.02:968][ 63]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2025.03.20-20.18.02:968][ 63]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2025.03.20-20.18.02:969][ 63]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2025.03.20-20.18.02:969][ 63]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2025.03.20-20.18.02:970][ 63]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2025.03.20-20.18.02:971][ 63]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2025.03.20-20.18.02:971][ 63]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2025.03.20-20.18.02:975][ 63]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2025.03.20-20.18.02:975][ 63]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module Core (248)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2025.03.20-20.18.02:976][ 63]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2025.03.20-20.18.02:977][ 63]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2025.03.20-20.18.02:978][ 63]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2025.03.20-20.18.02:980][ 63]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2025.03.20-20.18.02:983][ 63]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2025.03.20-20.18.02:983][ 63]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2025.03.20-20.18.02:984][ 63]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2025.03.20-20.18.02:984][ 63]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2025.03.20-20.18.02:984][ 63]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2025.03.20-20.18.02:984][ 63]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2025.03.20-20.18.02:984][ 63]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2025.03.20-20.18.02:985][ 63]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2025.03.20-20.18.02:986][ 63]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2025.03.20-20.18.02:986][ 63]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2025.03.20-20.18.02:986][ 63]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2025.03.20-20.18.02:986][ 63]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2025.03.20-20.18.02:987][ 63]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2025.03.20-20.18.02:987][ 63]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2025.03.20-20.18.02:988][ 63]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2025.03.20-20.18.02:989][ 63]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2025.03.20-20.18.02:989][ 63]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2025.03.20-20.18.02:989][ 63]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2025.03.20-20.18.02:990][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2025.03.20-20.18.02:991][ 63]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2025.03.20-20.18.03:001][ 63]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2025.03.20-20.18.03:001][ 63]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2025.03.20-20.18.03:001][ 63]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2025.03.20-20.18.03:001][ 63]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2025.03.20-20.18.03:001][ 63]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2025.03.20-20.18.03:011][ 63]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2025.03.20-20.18.03:016][ 63]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2025.03.20-20.18.03:042][ 63]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2025.03.20-20.18.03:042][ 63]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2025.03.20-20.18.03:042][ 63]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2025.03.20-20.18.03:042][ 63]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2025.03.20-20.18.03:042][ 63]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2025.03.20-20.18.03:044][ 63]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2025.03.20-20.18.03:044][ 63]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2025.03.20-20.18.03:045][ 63]LogHMD: Freeing OpenVRDLLHandle.
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2025.03.20-20.18.03:045][ 63]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (108)
+[2025.03.20-20.18.03:046][ 63]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.03.20-20.18.03:046][ 63]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (106)
+[2025.03.20-20.18.03:046][ 63]LogModuleManager: Shutting down and abandoning module OpenXRAR (104)
+[2025.03.20-20.18.03:046][ 63]LogModuleManager: Shutting down and abandoning module AugmentedReality (103)
+[2025.03.20-20.18.03:046][ 63]LogModuleManager: Shutting down and abandoning module OpenXRHMD (100)
+[2025.03.20-20.18.03:047][ 63]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2025.03.20-20.18.03:047][ 63]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2025.03.20-20.18.03:047][ 63]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2025.03.20-20.18.03:047][ 63]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2025.03.20-20.18.03:047][ 63]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2025.03.20-20.18.03:049][ 63]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2025.03.20-20.18.03:051][ 63]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2025.03.20-20.18.03:076][ 63]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2025.03.20-20.18.03:076][ 63]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2025.03.20-20.18.03:077][ 63]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7CB38A3D-42D8-3334-78AB-0183AAE50C2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=1630856f436c572332dc42bd5716ab61%7C7103b13d50da47bcb910eeb6fc950929%7C1a3351ea-d91d-494f-9b74-3a188d739225&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2025.03.20-20.18.03:077][ 63]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2025.03.20-20.18.03:092][ 63]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2025.03.20-20.18.03:094][ 63]LogModuleManager: Shutting down and abandoning module ChaosCloth (74)
+[2025.03.20-20.18.03:095][ 63]LogModuleManager: Shutting down and abandoning module MLSDK (72)
+[2025.03.20-20.18.03:095][ 63]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2025.03.20-20.18.03:097][ 63]LogModuleManager: Shutting down and abandoning module Media (69)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module MediaInfo (68)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (64)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (60)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module NiagaraShader (58)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module VariantManagerContent (56)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module PixWinPlugin (54)
+[2025.03.20-20.18.03:098][ 63]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (40)
+[2025.03.20-20.18.03:099][ 63]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2025.03.20-20.18.03:100][ 63]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2025.03.20-20.18.03:100][ 63]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2025.03.20-20.18.03:100][ 63]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2025.03.20-20.18.03:102][ 63]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2025.03.20-20.18.03:103][ 63]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2025.03.20-20.18.03:103][ 63]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2025.03.20-20.18.03:103][ 63]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2025.03.20-20.18.03:103][ 63]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2025.03.20-20.18.03:104][ 63]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2025.03.20-20.18.03:105][ 63]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2025.03.20-20.18.03:106][ 63]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2025.03.20-20.18.03:106][ 63]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2025.03.20-20.18.03:106][ 63]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2025.03.20-20.18.03:107][ 63]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2025.03.20-20.18.03:130][ 63]LogD3D11RHI: Shutdown
+[2025.03.20-20.18.03:130][ 63]LogD3D11RHI: CleanupD3DDevice
+[2025.03.20-20.18.03:136][ 63]LogExit: Exiting.
+[2025.03.20-20.18.03:152][ 63]Log file closed, 03/20/25 16:18:03
