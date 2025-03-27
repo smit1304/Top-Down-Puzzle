@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TopDownPuzzle.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E4EDEA12-640E-4343-AB38-AD678DCA5FE0}</UniqueIdentifier>
+      <UniqueIdentifier>{78753B96-306C-4B60-826D-B4B36D41EFE2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TopDownPuzzle.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1484C9AC-5C66-437C-ACA7-998D8C4F10F8}</UniqueIdentifier>
+      <UniqueIdentifier>{152C07D7-5ADF-40D9-979A-306D11CE55A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TopDownPuzzle">
-      <UniqueIdentifier>{30AA6489-62E9-4BE7-9727-95FF6291B4DF}</UniqueIdentifier>
+      <UniqueIdentifier>{2012AEA6-C34D-45B2-9CF3-598BC31E8500}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TopDownPuzzle\DoorTrigger.cpp">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TopDownPuzzle\DoorTrigger.h">
+      <Filter>Source\TopDownPuzzle</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TopDownPuzzle\TopDownPuzzle.Build.cs">
       <Filter>Source\TopDownPuzzle</Filter>
     </None>

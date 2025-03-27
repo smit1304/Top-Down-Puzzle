@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TopDownPuzzle.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\TopDownPuzzleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzle.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzleCharacter.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzleGameMode.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzlePlayerController.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzle.init.gen.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzleCharacter.gen.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzleGameMode.gen.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\TopDownPuzzlePlayerController.gen.cpp.obj"
+"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\Default.rc2.res"
+/OUT:"C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\UE4Editor-TopDownPuzzle.lib"
