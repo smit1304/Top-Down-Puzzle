@@ -23,6 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	
+
 	UPROPERTY(VisibleAnywhere)
 	class UBoxComponent* TriggerBox;  // Box component for the door's trigger
 
