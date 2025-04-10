@@ -56,7 +56,7 @@ void ADoorTrigger::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor
 	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	// Check if the overlapping actor is a character (the player or NPC)
-	if (OtherActor && OtherActor != this && OtherActor->IsA(ACharacter::StaticClass()))
+	if (OtherActor && OtherActor != this && OtherActor->IsA(ATopDownPuzzleCharacter::StaticClass()))
 	{
 		// You can also check if it's your specific player character class, if needed
 		// if (OtherActor->IsA(ATopDownCharacter::StaticClass()))
