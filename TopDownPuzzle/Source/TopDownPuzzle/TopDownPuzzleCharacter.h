@@ -36,5 +36,16 @@ private:
 	/** A decal that projects to the cursor location. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UDecalComponent* CursorToWorld;
+
+protected:
+
+	virtual void BeginPlay() override; 
+
+	/** Flashlight component */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Flashlight")
+	class USpotLightComponent* Flashlight;
+
+	/** Function to handle the flashlight toggle */
+	void ToggleFlashlight(bool);
 };
 

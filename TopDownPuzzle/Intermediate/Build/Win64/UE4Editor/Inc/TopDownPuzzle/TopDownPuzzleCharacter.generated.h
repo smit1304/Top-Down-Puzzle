@@ -61,7 +61,8 @@ public: \
 #define TopDownPuzzle_Source_TopDownPuzzle_TopDownPuzzleCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TopDownCameraComponent() { return STRUCT_OFFSET(ATopDownPuzzleCharacter, TopDownCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ATopDownPuzzleCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(ATopDownPuzzleCharacter, CursorToWorld); }
+	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(ATopDownPuzzleCharacter, CursorToWorld); } \
+	FORCEINLINE static uint32 __PPO__Flashlight() { return STRUCT_OFFSET(ATopDownPuzzleCharacter, Flashlight); }
 
 
 #define TopDownPuzzle_Source_TopDownPuzzle_TopDownPuzzleCharacter_h_9_PROLOG

@@ -11,6 +11,8 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "Components/SpotLightComponent.h"
+
 
 ATopDownPuzzleCharacter::ATopDownPuzzleCharacter()
 {
@@ -41,6 +43,12 @@ ATopDownPuzzleCharacter::ATopDownPuzzleCharacter()
 	TopDownCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	TopDownCameraComponent->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	// Create a flashlight component
+	Flashlight = CreateDefaultSubobject<USpotLightComponent>(TEXT("Flashlight"));
+	Flashlight->SetupAttachment(RootComponent);
+	Flashlight->SetRelativeLocation(FVector(0.f, 0.f, 20.f));
+	Flashlight->SetRelativeRotation(FRotator(0.f, 355.0f, 0.f));
+
 	// Create a decal in the world to show the cursor's location
 	CursorToWorld = CreateDefaultSubobject<UDecalComponent>("CursorToWorld");
 	CursorToWorld->SetupAttachment(RootComponent);
@@ -55,6 +63,28 @@ ATopDownPuzzleCharacter::ATopDownPuzzleCharacter()
 	// Activate ticking in order to update the cursor every frame.
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
+
+	
+}
+
+void ATopDownPuzzleCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	// Tun on or off based on current level ex. it is off in the tutorial level
+	FString CurrentLevel = GetWorld()->GetMapName();
+	// Unreal prefixes map name with "UEDPIE_0_" in Play-In-Editor mode
+	CurrentLevel.RemoveFromStart(GetWorld()->StreamingLevelsPrefix);
+
+	UE_LOG(LogTemp, Warning, TEXT("Current Level: %s"), *CurrentLevel);
+
+	if (CurrentLevel.Equals("Tutorial1", ESearchCase::IgnoreCase))
+	{
+		ToggleFlashlight(false);
+	}
+	else
+	{
+		ToggleFlashlight(true);
+	}
 }
 
 void ATopDownPuzzleCharacter::Tick(float DeltaSeconds)
@@ -86,5 +116,14 @@ void ATopDownPuzzleCharacter::Tick(float DeltaSeconds)
 			CursorToWorld->SetWorldLocation(TraceHitResult.Location);
 			CursorToWorld->SetWorldRotation(CursorR);
 		}
+	}
+}
+
+void ATopDownPuzzleCharacter::ToggleFlashlight(bool bIsOn)
+{
+	if (Flashlight)
+	{
+		Flashlight->SetVisibility(bIsOn);
+		Flashlight->SetComponentTickEnabled(bIsOn); 
 	}
 }

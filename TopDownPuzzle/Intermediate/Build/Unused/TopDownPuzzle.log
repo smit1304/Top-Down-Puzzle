@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Unreal Projects\Top-Down-Puzzle).
+  Building TopDownPuzzleEditor...
+  Using Visual Studio 2022 14.43.34808 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] TopDownPuzzleCharacter.cpp
+    [2/4] UE4Editor-TopDownPuzzle-0004.lib
+       Creating library C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\UE4Editor-TopDownPuzzle-0004.lib and object C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\UE4Editor-TopDownPuzzle-0004.exp
+    [3/4] UE4Editor-TopDownPuzzle-0004.dll
+       Creating library C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\UE4Editor-TopDownPuzzle-0004.suppressed.lib and object C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Intermediate\Build\Win64\UE4Editor\Development\TopDownPuzzle\UE4Editor-TopDownPuzzle-0004.suppressed.exp
+    [4/4] TopDownPuzzleEditor.target
+  Total time in Parallel executor: 1.81 seconds
+  Total execution time: 2.65 seconds

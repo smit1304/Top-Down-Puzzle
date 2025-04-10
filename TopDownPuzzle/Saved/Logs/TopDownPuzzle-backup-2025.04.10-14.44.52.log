@@ -1,0 +1,687 @@
+﻿Log file open, 04/10/25 10:44:40
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  "C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\TopDownPuzzle.uproject" -RUN=VSTestAdapter -listtests=C:\Users\patel\AppData\Local\Temp\tmp6279.tmp -filters= -stdout -multiprocess -silent -unattended -AllowStdOutLogVerbosity -NoShaderCompile -NoExit
+LogInit: Base Directory: C:/Program Files/UE/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2025.04.10-14.44.42:664][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2025.04.10-14.44.42:667][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2025.04.10-14.44.42:668][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:668][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2025.04.10-14.44.42:669][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2025.04.10-14.44.42:669][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2025.04.10-14.44.42:669][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2025.04.10-14.44.42:669][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2025.04.10-14.44.42:670][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2025.04.10-14.44.42:670][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2025.04.10-14.44.42:670][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2025.04.10-14.44.42:670][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2025.04.10-14.44.42:671][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2025.04.10-14.44.42:671][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2025.04.10-14.44.42:671][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2025.04.10-14.44.42:671][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2025.04.10-14.44.42:671][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2025.04.10-14.44.42:672][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2025.04.10-14.44.42:672][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2025.04.10-14.44.42:672][  0]LogConfig: Setting CVar [[r.VT.EnableAutoImport:1]]
+[2025.04.10-14.44.42:672][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2025.04.10-14.44.42:673][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2025.04.10-14.44.42:673][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2025.04.10-14.44.42:673][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2025.04.10-14.44.42:674][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2025.04.10-14.44.42:674][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2025.04.10-14.44.42:675][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2025.04.10-14.44.42:675][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2025.04.10-14.44.42:675][  0]LogConfig: Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+[2025.04.10-14.44.42:676][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2025.04.10-14.44.42:676][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2025.04.10-14.44.42:676][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2025.04.10-14.44.42:677][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2025.04.10-14.44.42:677][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2025.04.10-14.44.42:677][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2025.04.10-14.44.42:678][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2025.04.10-14.44.42:678][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2025.04.10-14.44.42:678][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2025.04.10-14.44.42:678][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2025.04.10-14.44.42:679][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2025.04.10-14.44.42:679][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2025.04.10-14.44.42:679][  0]LogConfig: Setting CVar [[vr.VRS.HMDFixedFoveationLevel:0]]
+[2025.04.10-14.44.42:680][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2025.04.10-14.44.42:680][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2025.04.10-14.44.42:680][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2025.04.10-14.44.42:682][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2025.04.10-14.44.42:682][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2025.04.10-14.44.42:683][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2025.04.10-14.44.42:683][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2025.04.10-14.44.42:683][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2025.04.10-14.44.42:683][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2025.04.10-14.44.42:684][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2025.04.10-14.44.42:684][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2025.04.10-14.44.42:684][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2025.04.10-14.44.42:685][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2025.04.10-14.44.42:685][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2025.04.10-14.44.42:685][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2025.04.10-14.44.42:685][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2025.04.10-14.44.42:685][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2025.04.10-14.44.42:686][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2025.04.10-14.44.42:686][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2025.04.10-14.44.42:686][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2025.04.10-14.44.42:686][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2025.04.10-14.44.42:687][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2025.04.10-14.44.42:687][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2025.04.10-14.44.42:687][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2025.04.10-14.44.42:687][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2025.04.10-14.44.42:688][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2025.04.10-14.44.42:688][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2025.04.10-14.44.42:688][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2025.04.10-14.44.42:688][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2025.04.10-14.44.42:689][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2025.04.10-14.44.42:689][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2025.04.10-14.44.42:689][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2025.04.10-14.44.42:690][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2025.04.10-14.44.42:690][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2025.04.10-14.44.42:690][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2025.04.10-14.44.42:690][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2025.04.10-14.44.42:691][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2025.04.10-14.44.42:691][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2025.04.10-14.44.42:691][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2025.04.10-14.44.42:691][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2025.04.10-14.44.42:691][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2025.04.10-14.44.42:692][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2025.04.10-14.44.42:692][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2025.04.10-14.44.42:692][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2025.04.10-14.44.42:692][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2025.04.10-14.44.42:692][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2025.04.10-14.44.42:693][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2025.04.10-14.44.42:693][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2025.04.10-14.44.42:693][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2025.04.10-14.44.42:693][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2025.04.10-14.44.42:694][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2025.04.10-14.44.42:694][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2025.04.10-14.44.42:694][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2025.04.10-14.44.42:694][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2025.04.10-14.44.42:694][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2025.04.10-14.44.42:695][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2025.04.10-14.44.42:695][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2025.04.10-14.44.42:695][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2025.04.10-14.44.42:695][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2025.04.10-14.44.42:695][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2025.04.10-14.44.42:696][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2025.04.10-14.44.42:696][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2025.04.10-14.44.42:696][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2025.04.10-14.44.42:696][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2025.04.10-14.44.42:697][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2025.04.10-14.44.42:697][  0]LogConfig: Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+[2025.04.10-14.44.42:697][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2025.04.10-14.44.42:697][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2025.04.10-14.44.42:698][  0]LogConfig: Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2025.04.10-14.44.42:698][  0]LogConfig: Setting CVar [[r.Mobile.SupportsGen4TAA:0]]
+[2025.04.10-14.44.42:698][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:698][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:699][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.04.10-14.44.42:699][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2025.04.10-14.44.42:699][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.04.10-14.44.42:699][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.04.10-14.44.42:700][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.04.10-14.44.42:700][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.04.10-14.44.42:700][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.04.10-14.44.42:700][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.04.10-14.44.42:701][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.04.10-14.44.42:701][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.04.10-14.44.42:701][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.04.10-14.44.42:701][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.04.10-14.44.42:701][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.04.10-14.44.42:702][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2025.04.10-14.44.42:702][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:702][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.04.10-14.44.42:702][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2025.04.10-14.44.42:703][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2025.04.10-14.44.42:703][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.04.10-14.44.42:703][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2025.04.10-14.44.42:703][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.04.10-14.44.42:704][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.04.10-14.44.42:704][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.04.10-14.44.42:704][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2025.04.10-14.44.42:704][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2025.04.10-14.44.42:704][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2025.04.10-14.44.42:705][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2025.04.10-14.44.42:705][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2025.04.10-14.44.42:705][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2025.04.10-14.44.42:705][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:705][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:706][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:706][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.10-14.44.42:706][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.10-14.44.42:706][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:706][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.10-14.44.42:707][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:707][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.10-14.44.42:707][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.10-14.44.42:707][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.10-14.44.42:708][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.10-14.44.42:708][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.10-14.44.42:708][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.10-14.44.42:708][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.10-14.44.42:708][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.10-14.44.42:709][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.10-14.44.42:709][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.10-14.44.42:709][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.10-14.44.42:709][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.10-14.44.42:709][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.10-14.44.42:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.10-14.44.42:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.10-14.44.42:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.10-14.44.42:710][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.10-14.44.42:710][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.10-14.44.42:711][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:711][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.10-14.44.42:711][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.10-14.44.42:711][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.10-14.44.42:711][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.10-14.44.42:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.10-14.44.42:712][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.10-14.44.42:713][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.10-14.44.42:713][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.10-14.44.42:713][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.10-14.44.42:713][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.10-14.44.42:713][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.10-14.44.42:714][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.10-14.44.42:714][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.10-14.44.42:714][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.10-14.44.42:714][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.10-14.44.42:715][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.10-14.44.42:715][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.10-14.44.42:715][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.10-14.44.42:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.10-14.44.42:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.10-14.44.42:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.10-14.44.42:716][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.10-14.44.42:716][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.10-14.44.42:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.10-14.44.42:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.10-14.44.42:717][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.10-14.44.42:717][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.10-14.44.42:717][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.10-14.44.42:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.10-14.44.42:718][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.10-14.44.42:718][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:718][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.10-14.44.42:718][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.10-14.44.42:719][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.10-14.44.42:719][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.10-14.44.42:719][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.10-14.44.42:719][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.10-14.44.42:719][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.10-14.44.42:720][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.10-14.44.42:720][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.10-14.44.42:720][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:720][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.10-14.44.42:720][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.10-14.44.42:721][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.10-14.44.42:721][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.10-14.44.42:721][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.10-14.44.42:721][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.10-14.44.42:722][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.10-14.44.42:722][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.10-14.44.42:722][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2025.04.10-14.44.42:722][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.10-14.44.42:723][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.10-14.44.42:723][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.10-14.44.42:723][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.10-14.44.42:723][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.10-14.44.42:723][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.10-14.44.42:724][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.10-14.44.42:724][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.10-14.44.42:724][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.04.10-14.44.42:724][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.10-14.44.42:724][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.10-14.44.42:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.10-14.44.42:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.04.10-14.44.42:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.10-14.44.42:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.04.10-14.44.42:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.10-14.44.42:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.10-14.44.42:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.10-14.44.42:726][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.04.10-14.44.42:726][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.10-14.44.42:727][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.10-14.44.42:727][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.04.10-14.44.42:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.04.10-14.44.42:727][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.04.10-14.44.42:732][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.10-14.44.42:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2025.04.10-14.44.42:733][  0]LogHAL: Display: Platform has ~ 16 GB [17013329920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.04.10-14.44.42:733][  0]LogInit: Going up to parent DeviceProfile []
+[2025.04.10-14.44.42:733][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:733][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.10-14.44.42:734][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.10-14.44.42:734][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:734][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.10-14.44.42:734][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:735][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.10-14.44.42:735][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.10-14.44.42:735][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.10-14.44.42:735][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.10-14.44.42:736][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.10-14.44.42:736][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.10-14.44.42:736][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.10-14.44.42:736][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.10-14.44.42:736][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.10-14.44.42:737][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.10-14.44.42:737][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.10-14.44.42:737][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.10-14.44.42:737][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.10-14.44.42:738][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.10-14.44.42:738][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.10-14.44.42:738][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.10-14.44.42:738][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.10-14.44.42:738][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.10-14.44.42:739][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:739][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.10-14.44.42:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.10-14.44.42:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.10-14.44.42:739][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.10-14.44.42:740][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.10-14.44.42:740][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.10-14.44.42:740][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.10-14.44.42:740][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.10-14.44.42:740][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.10-14.44.42:741][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.10-14.44.42:741][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.10-14.44.42:741][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.10-14.44.42:741][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.10-14.44.42:741][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.10-14.44.42:742][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.10-14.44.42:742][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.10-14.44.42:742][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.10-14.44.42:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.10-14.44.42:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.10-14.44.42:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.10-14.44.42:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.10-14.44.42:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.10-14.44.42:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.10-14.44.42:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.10-14.44.42:744][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.10-14.44.42:744][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.10-14.44.42:745][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.10-14.44.42:745][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.10-14.44.42:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.10-14.44.42:745][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.10-14.44.42:745][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:746][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.10-14.44.42:746][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.10-14.44.42:746][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.10-14.44.42:746][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.10-14.44.42:746][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.10-14.44.42:747][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.10-14.44.42:747][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.10-14.44.42:747][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.10-14.44.42:747][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.10-14.44.42:747][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:748][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.10-14.44.42:748][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.10-14.44.42:748][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.10-14.44.42:748][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.10-14.44.42:748][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.10-14.44.42:749][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.10-14.44.42:749][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.10-14.44.42:749][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.10-14.44.42:749][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2025.04.10-14.44.42:749][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.10-14.44.42:750][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.10-14.44.42:750][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.10-14.44.42:750][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.10-14.44.42:750][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.10-14.44.42:751][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.10-14.44.42:752][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.10-14.44.42:752][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.04.10-14.44.42:752][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.10-14.44.42:752][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.04.10-14.44.42:752][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.10-14.44.42:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.10-14.44.42:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.10-14.44.42:753][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.04.10-14.44.42:753][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:753][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.10-14.44.42:754][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.10-14.44.42:754][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Scalability.ini]
+[2025.04.10-14.44.42:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.04.10-14.44.42:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.04.10-14.44.42:755][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.04.10-14.44.42:755][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.04.10-14.44.42:756][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2025.04.10-14.44.42:756][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.04.10-14.44.42:757][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.04.10-14.44.42:757][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Engine.ini]
+[2025.04.10-14.44.42:757][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Config/Windows/Editor.ini]
+[2025.04.10-14.44.42:757][  0]LogInit: Computer: LAPTOP-EJ2DB2HV
+[2025.04.10-14.44.42:758][  0]LogInit: User: patel
+[2025.04.10-14.44.42:758][  0]LogInit: CPU Page size=4096, Cores=4
+[2025.04.10-14.44.42:758][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.10-14.44.42:758][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2025.04.10-14.44.42:759][  0]LogMemory: Platform Memory Stats for Windows
+[2025.04.10-14.44.42:759][  0]LogMemory: Process Physical Memory: 137.92 MB used, 137.92 MB peak
+[2025.04.10-14.44.42:759][  0]LogMemory: Process Virtual Memory: 108.91 MB used, 108.91 MB peak
+[2025.04.10-14.44.42:760][  0]LogMemory: Physical Memory: 9858.12 MB used,  6367.05 MB free, 16225.18 MB total
+[2025.04.10-14.44.42:760][  0]LogMemory: Virtual Memory: 134195416.00 MB used,  22308.39 MB free, 134217728.00 MB total
+[2025.04.10-14.44.42:769][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.04.10-14.44.43:101][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2025.04.10-14.44.43:102][  0]LogInit: Using OS detected language (en-US).
+[2025.04.10-14.44.43:102][  0]LogInit: Using OS detected locale (en-IN).
+[2025.04.10-14.44.43:111][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2025.04.10-14.44.46:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2025.04.10-14.44.46:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.04.10-14.44.46:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.04.10-14.44.46:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.04.10-14.44.46:828][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.04.10-14.44.46:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.04.10-14.44.46:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.04.10-14.44.46:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.04.10-14.44.46:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.04.10-14.44.46:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.04.10-14.44.46:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.04.10-14.44.46:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.04.10-14.44.46:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.04.10-14.44.46:914][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.04.10-14.44.46:926][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2025.04.10-14.44.46:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.04.10-14.44.46:950][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.04.10-14.44.46:989][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2025.04.10-14.44.47:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2025.04.10-14.44.47:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2025.04.10-14.44.47:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2025.04.10-14.44.47:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2025.04.10-14.44.47:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2025.04.10-14.44.47:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.04.10-14.44.47:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.04.10-14.44.47:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.04.10-14.44.47:302][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.04.10-14.44.47:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.04.10-14.44.47:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2025.04.10-14.44.47:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.04.10-14.44.47:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.04.10-14.44.47:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.04.10-14.44.47:371][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.04.10-14.44.47:488][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.04.10-14.44.47:639][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2025.04.10-14.44.47:784][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2025.04.10-14.44.47:785][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2025.04.10-14.44.47:937][  0]LogDerivedDataCache: Loaded boot cache 0.15s 103MB C:/Users/patel/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2025.04.10-14.44.47:938][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/patel/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2025.04.10-14.44.47:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.04.10-14.44.47:939][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2025.04.10-14.44.47:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.10-14.44.47:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2025.04.10-14.44.47:975][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2025.04.10-14.44.47:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.10-14.44.47:976][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2025.04.10-14.44.48:074][  0]LogDerivedDataCache: Speed tests for C:/Users/patel/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.09 seconds
+[2025.04.10-14.44.48:075][  0]LogDerivedDataCache: Display: Performance to C:/Users/patel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=12.34MBs, RandomWriteSpeed=82.33MBs. Assigned SpeedClass 'Local'
+[2025.04.10-14.44.48:076][  0]LogDerivedDataCache: Using Local data cache path C:/Users/patel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2025.04.10-14.44.48:076][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2025.04.10-14.44.48:077][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2025.04.10-14.44.48:088][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2025.04.10-14.44.48:443][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.10-14.44.48:443][  0]LogInit: Active device profile: [0000021EB974BE00][0000021EB36B3A40 49] Windows
+[2025.04.10-14.44.48:444][  0]LogInit: Profiles: [0000021EB974BE00][0000021EB36B3A40 49] Windows, [0000021EB9744300][0000021EB36C1BC0 49] WindowsNoEditor, [0000021EB9748300][0000021EB39E81C0 49] WindowsServer, [0000021EB9745600][0000021EB39EC340 49] WindowsClient, [0000021EB9749500][0000021EB39F04C0 49] IOS, [0000021EB9746400][0000021EB39F4640 49] iPadAir, [0000021EB974A300][0000021EB39F87C0 49] iPadAir2, [0000021EB96FFD00][0000021EB3A06A80 49] IPadPro, [0000021EB96FFE00][0000021EB39FCAC0 49] iPadAir3, [0000021EB974B900][0000021EB3A10C40 49] iPadAir4, [0000021EB96FC800][0000021EB3A14DC0 49] iPadMini2, [0000021EB9748600][0000021EB3A18F40 49] iPadMini3, [0000021EB96FED00][0000021EB36B7080 49] iPadMini4, [0000021EB9749100][0000021EB3A1D1C0 49] iPadMini5, [0000021EB973F600][0000021EB99A7400 49] iPhone6, [0000021EB973F700][0000021EB99A3440 49] iPodTouch6, [0000021EB96FE000][0000021EB99B3700 49] iPhone7, [0000021EB96FE100][0000021EB99AF740 49] iPodTouch7, [0000021EB973C700][0000021EB99B78C0 49] iPhone5S, [0000021EB96FCD00][0000021EB99BBA40 49] iPhone6Plus, [0000021EB973D100][0000021EB99BFBC0 49] iPhone6S, [0000021EB96FDA00][0000021EB99C21C0 49] iPhone6SPlus, [0000021EB973F400][0000021EB99C6340 49] iPhone7Plus, [0000021EB96FEB00][0000021EB99CA4C0 49] iPhoneSE, [0000021EB973CD00][0000021EB99CE640 49] iPhone8, [0000021EB96FFF00][0000021EB99D27C0 49] iPhone8Plus, [0000021EB973E700][0000021EB99D6940 49] iPhoneX, [0000021EB96FE900][0000021EB99DAAC0 49] iPhoneXS, [0000021EB973C300][0000021EB99DEC40 49] iPhoneXSMax, [0000021EB96FD700][0000021EB99E2DC0 49] iPhoneXR, [0000021EB973D200][0000021EB99E6F40 49] iPhone11, [0000021EB96FFA00][0000021EB99EB0C0 49] iPhone11Pro, [0000021EB973C600][0000021EB99AB200 49] iPhone11ProMax, [0000021EB96FDB00][0000021EB99EF340 49] iPhoneSE2, [0000021EB973F800][0000021EB99F3480 49] iPhone12Mini, [0000021EB96FEA00][0000021EB99F75C0 49] iPhone12, [0000021EB973C400][0000021EB99FF740 49] iPhone12Pro, [0000021EB96FE400][0000021EB9A038C0 49] iPhone12ProMax, [0000021EB973C800][0000021EB9A07A40 49] iPadPro105, [0000021EB96FE500][0000021EB9A0BBC0 49] iPadPro129, [0000021EB973F300][0000021EB9A0E1C0 49] iPadPro97, [0000021EB96FDD00][0000021EB9A12340 49] iPadPro2_129, [0000021EB973CB00][0000021EB9A164C0 49] iPad5, [0000021EB96FF000][0000021EB9A1A640 49] iPad6, [0000021EB973DC00][0000021EB9A1E7C0 49] iPad7, [0000021EB96FC900][0000021EB9A22940 49] iPad8, [0000021EB973C900][0000021EB9A26AC0 49] iPadPro11, [0000021EB96FFB00][0000021EB9A2AC40 49] iPadPro2_11, [0000021EB973D500][0000021EB9A2EDC0 49] iPadPro3_129, [0000021EB96FE700][0000021EB9A32F40 49] iPadPro4_129, [0000021EB973FC00][0000021EB9A370C0 49] AppleTV, [0000021EB96FEC00][0000021EB9A3B240 49] AppleTV4K, [0000021EB973DF00][0000021EB9A3F3C0 49] TVOS, [0000021EB96FC300][0000021EB99FB500 49] Mac, [0000021EB973EF00][0000021EB9A43640 49] MacClient, [0000021EB96FD500][0000021EB9A47780 49] MacNoEditor, [0000021EB973F900][0000021EB9A4F900 49] MacServer, [0000021EB96FD300][0000021EB9A53A80 49] Linux, [0000021EB973E300][0000021EB9A57C00 49] LinuxAArch64, [0000021EB96FCF00][0000021EB9A5A200 49] LinuxNoEditor, [0000021EB973C200][0000021EB9A5E380 49] LinuxAArch64NoEditor, [0000021EB96FC700][0000021EB9A62500 49] LinuxClient, [0000021EB973DE00][0000021EB9A66680 49] LinuxAArch64Client, [0000021EB9744900][0000021EB9A6A800 49] LinuxServer, [0000021EB87C9600][0000021EB9A6E980 49] LinuxAArch64Server, [0000021EB9745500][0000021EB9A72B00 49] Android, [0000021EB87C8800][0000021EB9A76C80 49] Android_Low, [0000021EB9745800][0000021EB9A7AE00 49] Android_Mid, [0000021EB87CAD00][0000021EB9A7EF80 49] Android_High, [0000021EB9747D00][0000021EB9A83100 49] Android_Default, [0000021EB87CB300][0000021EB9A87280 49] Android_Adreno4xx, [0000021EB9746F00][0000021EB9A8B400 49] Android_Adreno5xx_Low, [0000021EB87C9500][0000021EB9A8F580 49] Android_Adreno5xx, [0000021EB9746B00][0000021EB9A4B6C0 49] Android_Adreno6xx, [0000021EB87C9200][0000021EB9A93800 49] Android_Adreno6xx_Vulkan, [0000021EB9744700][0000021EB9A97940 49] Android_Mali_T6xx, [0000021EB87C8400][0000021EB9A9FAC0 49] Android_Mali_T7xx, [0000021EB9745C00][0000021EB9AA20C0 49] Android_Mali_T8xx, [0000021EB87CAE00][0000021EB9AA6240 49] Android_Mali_G71, [0000021EB9744A00][0000021EB9AAA3C0 49] Android_Mali_G72, [0000021EB87C9100][0000021EB9AAE540 49] Android_Mali_G72_Vulkan, [0000021EB9744200][0000021EB9AB26C0 49] Android_Mali_G76, [0000021EB87C8B00][0000021EB9AB6840 49] Android_Mali_G76_Vulkan, [0000021EB9745900][0000021EB9ABA9C0 49] Android_Mali_G77, [0000021EB87CA800][0000021EB9ABEB40 49] Android_Mali_G77_Vulkan, [0000021EB973E200][0000021EB9AC2CC0 49] Android_Mali_G78, [0000021EB87C9B00][0000021EB9AC6E40 49] Android_Mali_G78_Vulkan, [0000021EB973E500][0000021EB9ACAFC0 49] Android_Mali_G710, [0000021EB87C8300][0000021EB9ACF140 49] Android_Mali_G710_Vulkan, [0000021EB973E600][0000021EB9AD32C0 49] Android_Vulkan_SM5, [0000021EB87CAF00][0000021EB9AD7440 49] Android_PowerVR_G6xxx, [0000021EB973E100][0000021EB9ADB5C0 49] Android_PowerVR_GT7xxx, [0000021EB87CA400][0000021EB9ADF740 49] Android_PowerVR_GE8xxx, [0000021EB973E900][0000021EB9A9B880 49] Android_PowerVR_GM9xxx, [0000021EB87CB900][0000021EB9AE39C0 49] Android_PowerVR_GM9xxx_Vulkan, [0000021EB973FA00][0000021EB9AE7B00 49] Android_TegraK1, [0000021EB87C8A00][0000021EB9AEA0C0 49] Android_Unknown_Vulkan, [0000021EB973FE00][0000021EB9AF2240 49] Lumin, [0000021EB87CA300][0000021EB9AF63C0 49] Lumin_Desktop, [0000021EB973DD00][0000021EB9AFA540 49] HoloLens, 
+[2025.04.10-14.44.48:513][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.04.10-14.44.48:513][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2025.04.10-14.44.48:513][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.04.10-14.44.48:513][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2025.04.10-14.44.48:514][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.04.10-14.44.48:525][  0]LogNetVersion: TopDownPuzzle 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 565499533)
+[2025.04.10-14.44.49:224][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2025.04.10-14.44.49:439][  0]LogCollectionManager: Loaded 0 collections in 0.001889 seconds
+[2025.04.10-14.44.49:442][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Saved/Collections/' took 0.00s
+[2025.04.10-14.44.49:442][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/Developers/patel/Collections/' took 0.00s
+[2025.04.10-14.44.49:442][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal Projects/Top-Down-Puzzle/TopDownPuzzle/Content/Collections/' took 0.00s
+[2025.04.10-14.44.49:443][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2025.04.10-14.44.49:662][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: D26DD5084D40F035557E1C9806C9C51A | Instance: CFCEA095422704887171C28372C95D4B (LAPTOP-EJ2DB2HV-8796).
+[2025.04.10-14.44.49:758][  0]LogPython: Using Python 3.7.7
+[2025.04.10-14.44.52:537][  0]LogWindows: Error: === Critical error: ===
+[2025.04.10-14.44.52:538][  0]LogWindows: Error: 
+[2025.04.10-14.44.52:538][  0]LogWindows: Error: Fatal error!
+[2025.04.10-14.44.52:539][  0]LogWindows: Error: 
+[2025.04.10-14.44.52:539][  0]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000000000b8
+[2025.04.10-14.44.52:539][  0]LogWindows: Error: 
+[2025.04.10-14.44.52:539][  0]LogWindows: Error: [Callstack] 0x00007ffe6434d9e4 UE4Editor-Engine.dll!UnknownFunction []
+[2025.04.10-14.44.52:540][  0]LogWindows: Error: [Callstack] 0x00007ffe03ba4f9e UE4Editor-TopDownPuzzle-9630.dll!ATopDownPuzzleCharacter::ATopDownPuzzleCharacter() [C:\Unreal Projects\Top-Down-Puzzle\TopDownPuzzle\Source\TopDownPuzzle\TopDownPuzzleCharacter.cpp:68]
+[2025.04.10-14.44.52:540][  0]LogWindows: Error: [Callstack] 0x00007ffe65ff61d3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2025.04.10-14.44.52:540][  0]LogWindows: Error: [Callstack] 0x00007ffe66318faf UE4Editor-CoreUObject.dll!UnknownFunction []
+[2025.04.10-14.44.52:541][  0]LogWindows: Error: [Callstack] 0x00007ffe662f5411 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2025.04.10-14.44.52:541][  0]LogWindows: Error: [Callstack] 0x00007ffe661bddc5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2025.04.10-14.44.52:541][  0]LogWindows: Error: [Callstack] 0x00007ffe62061bea UE4Editor-Core.dll!UnknownFunction []
+[2025.04.10-14.44.52:541][  0]LogWindows: Error: [Callstack] 0x00007ffe620815a3 UE4Editor-Core.dll!UnknownFunction []
+[2025.04.10-14.44.52:542][  0]LogWindows: Error: [Callstack] 0x00007ffe61c66433 UE4Editor-Projects.dll!UnknownFunction []
+[2025.04.10-14.44.52:542][  0]LogWindows: Error: [Callstack] 0x00007ffe61c6674f UE4Editor-Projects.dll!UnknownFunction []
+[2025.04.10-14.44.52:542][  0]LogWindows: Error: [Callstack] 0x00007ff7f5735642 UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:543][  0]LogWindows: Error: [Callstack] 0x00007ff7f5739000 UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:543][  0]LogWindows: Error: [Callstack] 0x00007ff7f5730d2c UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:543][  0]LogWindows: Error: [Callstack] 0x00007ff7f57310ba UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:543][  0]LogWindows: Error: [Callstack] 0x00007ff7f57340dd UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:544][  0]LogWindows: Error: [Callstack] 0x00007ff7f5745984 UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:544][  0]LogWindows: Error: [Callstack] 0x00007ff7f57478be UE4Editor-cmd.exe!UnknownFunction []
+[2025.04.10-14.44.52:544][  0]LogWindows: Error: [Callstack] 0x00007ffef5dc259d KERNEL32.DLL!UnknownFunction []
+[2025.04.10-14.44.52:544][  0]LogWindows: Error: [Callstack] 0x00007ffef6c2af38 ntdll.dll!UnknownFunction []
+[2025.04.10-14.44.52:546][  0]LogWindows: Error: 
+[2025.04.10-14.44.52:550][  0]LogExit: Executing StaticShutdownAfterError
+[2025.04.10-14.44.52:552][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2025.04.10-14.44.52:552][  0]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3)
+[2025.04.10-14.44.52:552][  0]LogCore: Engine exit requested (reason: Win RequestExit)
+[2025.04.10-14.44.52:564][  0]Log file closed, 04/10/25 10:44:52

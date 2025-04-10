@@ -38,4 +38,8 @@ protected:
 	class USoundBase* ClickSound;
 
 	void NativeConstruct() override;
+
+	void PlayClickSound();
+
+	void DelayedOpenLevel();
 };

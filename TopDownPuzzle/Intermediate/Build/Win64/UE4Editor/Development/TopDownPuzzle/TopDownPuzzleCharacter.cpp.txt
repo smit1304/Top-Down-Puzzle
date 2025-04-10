@@ -42,3 +42,13 @@ C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMo
 C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestureConfig.h
 C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
 C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SpotLightComponent.h
+C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
+C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
+C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
+C:\Program Files\UE\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LightComponentBase.h
+C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBase.generated.h
+C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
+C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalLightComponent.generated.h
+C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLightComponent.generated.h
+C:\Program Files\UE\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpotLightComponent.generated.h

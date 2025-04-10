@@ -20,16 +20,49 @@ void UMainMenuWidget::StartGame()
 {
 	// Logic to start the game
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Start Game Button CLicked"));
+	// Play the click sound
+	PlayClickSound();
+
+	// Delay the level change slightly to allow sound to play
+	FTimerHandle TimerHandle;
+	GetWorld()->GetTimerManager().SetTimer(
+		TimerHandle,
+		this,
+		&UMainMenuWidget::DelayedOpenLevel,
+		0.3f,  // Adjust this based on sound length
+		false
+	);
+
+	//UGameplayStatics::OpenLevel(this, FName("Tutorial1"));
+}
+
+void UMainMenuWidget::DelayedOpenLevel() 
+{
+	// Logic to open the level
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Start Game Button CLicked"));
 	UGameplayStatics::OpenLevel(this, FName("Tutorial1"));
 }
+
 void UMainMenuWidget::ExitGame()
 {
+	// Play the click sound
+	PlayClickSound();
 	// Logic to exit the game
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("Exit Button clicked"));
 	FGenericPlatformMisc::RequestExit(false);
 }
 void UMainMenuWidget::ShowCredits()
 {
+	// Play the click sound
+	PlayClickSound();
 	// Logic to show credits
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("credit button clicked"));
+}
+
+void UMainMenuWidget::PlayClickSound()
+{
+	if (ClickSound)
+	{
+		UGameplayStatics::PlaySound2D(GetWorld(), ClickSound);
+	}
 }

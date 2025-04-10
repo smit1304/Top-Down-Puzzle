@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDownPuzzleCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpotLightComponent_NoRegister();
 // End Cross Module References
 	void ATopDownPuzzleCharacter::StaticRegisterNativesATopDownPuzzleCharacter()
 	{
@@ -46,6 +47,10 @@ void EmptyLinkFunctionForGeneratedCodeTopDownPuzzleCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CursorToWorld_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CursorToWorld;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Flashlight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Flashlight;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -96,10 +101,21 @@ void EmptyLinkFunctionForGeneratedCodeTopDownPuzzleCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_CursorToWorld = { "CursorToWorld", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATopDownPuzzleCharacter, CursorToWorld), Z_Construct_UClass_UDecalComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_CursorToWorld_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_CursorToWorld_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_Flashlight_MetaData[] = {
+		{ "Category", "Flashlight" },
+		{ "Comment", "/** Flashlight component */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TopDownPuzzleCharacter.h" },
+		{ "ToolTip", "Flashlight component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_Flashlight = { "Flashlight", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATopDownPuzzleCharacter, Flashlight), Z_Construct_UClass_USpotLightComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_Flashlight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_Flashlight_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_TopDownCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_CursorToWorld,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::NewProp_Flashlight,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATopDownPuzzleCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATopDownPuzzleCharacter>::IsAbstract,
@@ -128,7 +144,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDownPuzzleCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATopDownPuzzleCharacter, 2405326638);
+	IMPLEMENT_CLASS(ATopDownPuzzleCharacter, 3776281399);
 	template<> TOPDOWNPUZZLE_API UClass* StaticClass<ATopDownPuzzleCharacter>()
 	{
 		return ATopDownPuzzleCharacter::StaticClass();
