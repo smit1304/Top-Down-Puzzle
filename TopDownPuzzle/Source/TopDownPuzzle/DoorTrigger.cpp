@@ -48,7 +48,14 @@ void ADoorTrigger::OnOverlapBegin(class UPrimitiveComponent* OverlappedComponent
 		UE_LOG(LogTemp, Warning, TEXT("Player entered the door!"));
 
 		// Load the next level (you can change "NextLevelName" to your actual level name)
-		UGameplayStatics::OpenLevel(this, FName("Level1"));
+		if (!NextLevelName.IsNone())
+		{
+			UGameplayStatics::OpenLevel(this, NextLevelName);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("No level name specified!"));
+		}
 	}
 }
 

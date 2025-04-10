@@ -28,6 +28,9 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	class UBoxComponent* TriggerBox;  // Box component for the door's trigger
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Level")
+	FName NextLevelName;
+
 	//function that called when the player overlaps with the trigger box	
 	UFUNCTION()	
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor,

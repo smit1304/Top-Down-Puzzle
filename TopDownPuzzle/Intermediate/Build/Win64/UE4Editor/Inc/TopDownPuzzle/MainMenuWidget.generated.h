@@ -75,7 +75,8 @@ public: \
 #define TopDownPuzzle_Source_TopDownPuzzle_MainMenuWidget_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__bPlay() { return STRUCT_OFFSET(UMainMenuWidget, bPlay); } \
 	FORCEINLINE static uint32 __PPO__bExit() { return STRUCT_OFFSET(UMainMenuWidget, bExit); } \
-	FORCEINLINE static uint32 __PPO__bCredits() { return STRUCT_OFFSET(UMainMenuWidget, bCredits); }
+	FORCEINLINE static uint32 __PPO__bCredits() { return STRUCT_OFFSET(UMainMenuWidget, bCredits); } \
+	FORCEINLINE static uint32 __PPO__ClickSound() { return STRUCT_OFFSET(UMainMenuWidget, ClickSound); }
 
 
 #define TopDownPuzzle_Source_TopDownPuzzle_MainMenuWidget_h_12_PROLOG

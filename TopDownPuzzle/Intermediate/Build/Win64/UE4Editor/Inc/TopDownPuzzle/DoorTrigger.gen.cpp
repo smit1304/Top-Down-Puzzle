@@ -215,6 +215,10 @@ void EmptyLinkFunctionForGeneratedCodeDoorTrigger() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerBox_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerBox;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NextLevelName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_NextLevelName;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -241,8 +245,18 @@ void EmptyLinkFunctionForGeneratedCodeDoorTrigger() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoorTrigger_Statics::NewProp_TriggerBox = { "TriggerBox", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoorTrigger, TriggerBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ADoorTrigger_Statics::NewProp_TriggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoorTrigger_Statics::NewProp_TriggerBox_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoorTrigger_Statics::NewProp_NextLevelName_MetaData[] = {
+		{ "Category", "Level" },
+		{ "Comment", "// Box component for the door's trigger\n" },
+		{ "ModuleRelativePath", "DoorTrigger.h" },
+		{ "ToolTip", "Box component for the door's trigger" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_ADoorTrigger_Statics::NewProp_NextLevelName = { "NextLevelName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADoorTrigger, NextLevelName), METADATA_PARAMS(Z_Construct_UClass_ADoorTrigger_Statics::NewProp_NextLevelName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADoorTrigger_Statics::NewProp_NextLevelName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoorTrigger_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoorTrigger_Statics::NewProp_TriggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoorTrigger_Statics::NewProp_NextLevelName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADoorTrigger_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADoorTrigger>::IsAbstract,
@@ -271,7 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeDoorTrigger() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADoorTrigger, 1869593631);
+	IMPLEMENT_CLASS(ADoorTrigger, 806009872);
 	template<> TOPDOWNPUZZLE_API UClass* StaticClass<ADoorTrigger>()
 	{
 		return ADoorTrigger::StaticClass();
